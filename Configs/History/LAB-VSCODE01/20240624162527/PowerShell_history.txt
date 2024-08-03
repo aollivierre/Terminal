@@ -1,0 +1,306 @@
+C:\Windows\System32\wsl.exe --update --web-download
+C:\Windows\System32\wsl.exe --update --web-download:
+wsl --update
+C:\Windows\System32\wsl.exe --update --web-download:
+docker pull mcr.microsoft.com/powershell:7.4-alpine-3.17
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh
+code $profile
+C:\Code\CB\Terminal\0.5-Install-Modules-Universal-v5.ps1
+C:\Code\CB\Terminal\0.6-Install-Modules-TerminalIcons-Z.ps1
+C:\Code\CB\Terminal\1.2-Install-OhMyPosh.ps1
+C:\Code\CB\Terminal\1.3-Add-OhMyPosh-PATH_v7.ps1
+C:\Code\CB\Terminal\1.4-Install-Nerdfont-with-OMP.ps1
+C:\Code\CB\Terminal\1.6-Install-Nerdfont-with-OMP.ps1
+C:\Code\CB\Terminal\5-Set-Profile.ps1
+C:\Code\CB\Terminal\6-Set-Profile.ps1
+C:\Code\CB\Terminal\1.6-Install-Nerdfont-with-OMP.ps1
+code $profile
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+C:\Code\Modules\EnhancedAO.Graph.SignInLogs\2.0.0\ConvertModuleBacktoSinglePs1.ps1
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 6.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 6.ps1"
+C:\Code\Modules\EnhancedBoilerPlateAO\2.0.0\ConvertModuleBacktoSinglePs1.ps1
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 6.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 6.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 6.ps1"
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-Parallel.ps1
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 6.ps1"
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\combine-allmodules.ps1
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 6.ps1"
+Check-DeviceStateInIntune
+code $profile
+Check-DeviceStateInIntune
+# Split the PSModulePath variable into an array
+$modulePaths = $env:PSModulePath -split ';'
+# Create a custom object for each path and output it as a table
+$modulePaths | ForEach-Object {`
+    [PSCustomObject]@{`
+        ModulePath = $_`
+    }`
+} | Format-Table -AutoSize
+Check-DeviceStateInIntune
+Load-SignInLogs
+Check-DeviceStateInIntune
+Load-SignInLogs
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7.ps1"
+Load-SignInLogs
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7.ps1"
+Ensure-LoggingFunctionExists
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7.ps1"
+Initialize-Results
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7.ps1"
+Handle-Error
+Ensure-LoggingFunctionExists
+Load-SignInLogs
+Ensure-LoggingFunctionExists
+$inputData = 1..10
+$inputData | ForEach-Object -Parallel {`
+    # Now Get-CustomData is available because the module was imported in the profile`
+    Ensure-LoggingFunctionExists`
+} -ThrottleLimit 4
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+code $profile
+Ensure-LoggingFunctionExists
+"C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 5-working-code-no-parallel.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 5-working-code-no-parallel.ps1"
+code $profile
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7-parallel-removed-boiler-plate.ps1"
+code $profile
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7-parallel-removed-boiler-plate.ps1"
+code $profile
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7-parallel-removed-boiler-plate.ps1"
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-Parallel-v2.ps1
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7-parallel-removed-boiler-plate.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 5-working-code-no-parallel.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+code $profile
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+scabbed tingly monkhood rotunda 56&
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7-parallel-removed-boiler-plate.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 5-working-code-no-parallel.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+Disconnect-Graph
+cls
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+& "C:\Code\IntuneManagement\Start-IntuneManagement.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 5-working-code-no-parallel.ps1"
+cd C:\Code\CB\Entra\ICTC\Entra\Devices\Beta
+ls
+cls
+ls
+& '.\1-Get-Content and ConvertFrom-Json.ps1'
+& '.\2-System.IO.StreamReader and ConvertFrom-Json.ps1'
+.\3-System.Text.Json.JsonDocument.ps1
+.\4-System.Text.Json.JsonDocument.ps1
+.\3-System.Text.Json.JsonDocument.ps1
+.\4-System.Text.Json.JsonDocument.ps1
+.\3-System.Text.Json.JsonDocument.ps1
+.\4-System.Text.Json.JsonDocument.ps1
+.\3-System.Text.Json.JsonDocument.ps1
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\5-compare-json-file-read.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+podman run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-newtonsoft-linq.ps1"
+ps | Select name, id | convertto-json | set-content test.json
+$reader = [System.IO.StreamReader]::new("$pwd\test.json")
+$jarray = [Newtonsoft.Json.Linq.JArray]::Load([NewtonSoft.Json.JsonTextReader]$reader)
+ps | Select name, id | convertto-json | set-content test.json
+$reader = [System.IO.StreamReader]::new("$pwd\test.json")
+$jarray = [Newtonsoft.Json.Linq.JArray]::Load([NewtonSoft.Json.JsonTextReader]$reader)
+$jarray.SelectToken('$').SelectTokens('$..[?(@.Name == ''pwsh'')]')
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-newtonsoft-linq.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Logging.ps1"
+certmgr.msc
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+podman run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+certlm.msc
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+# Retrieve all service principals
+$servicePrincipals = Get-MgServicePrincipal
+# Display the service principals
+$servicePrincipals | Format-Table DisplayName, AppId, Id
+get-mguser
+$servicePrincipals | Format-Table DisplayName, AppId, Id | Sort-Object -Property Displayname
+$servicePrincipals | Format-Table DisplayName, AppId, Id | Sort-Object -Property Displaynam
+$servicePrincipals | Sort-Object -Property Displayname | Format-Table DisplayName, AppId, Id
+& "C:\Code\GraphAppwithCert\Graph\test-ServicePrincipal.ps1"
+& "C:\Code\GraphAppwithCert\Graph\test-ServicePrincipal.ps1"
+& "C:\Code\Modules\EnhancedGraphAO\3.0.0\Public\Grant-AdminConsentToApiPermissions.ps1"
+& "C:\Code\GraphAppwithCert\Graph\test-ServicePrincipal.ps1"
+Get-MgServicePrincipal -Filter "displayName eq 'Microsoft Graph'" -Property Oauth2PermissionScopes | Select -ExpandProperty Oauth2PermissionScopes | fl
+Get-MgOauth2PermissionGrant -Filter "clientId eq '08216f27-1d3d-4a9f-9406-80f957e7fca6' and consentType eq 'AllPrincipals'"
+& "C:\Code\GraphAppwithCert\Graph\test-grantadminconsent.ps1"
+& "C:\Code\Intune-Win32-Deployer\test-granadminconsent2.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+& "C:\Code\GraphAppwithCert\Graph\test-ServicePrincipal.ps1"
+Get-MgServicePrincipal -Filter "AppId eq 'f2108844-50d3-45cb-9c7c-6d1ac5b92912'"
+Get-MgServicePrincipal
+Get-MgServicePrincipal | Sort-Object -Property displayname
+Get-MgServicePrincipal -Filter "AppId eq '6065ddef-dc78-4a96-b430-27d50c4722d3'"
+Get-MgServicePrincipal -Filter "Id eq '6065ddef-dc78-4a96-b430-27d50c4722d3'"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+Get-MgServicePrincipalOauth2PermissionGrant -ServicePrincipalId $servicePrincipalId
+Get-MgServicePrincipalOauth2PermissionGrant -ServicePrincipalId "37ebfe0e-2b5b-45f2-bfb1-9118be1dfc3d"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+sysdm.cpl
+az
+sysdm.cpl
+az
+az login
+exit
+az login
+az account clear az config set core.enable_broker_on_windows=false
+az login
+az account clear az config
+az login --allow-no-subscriptions
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+podman run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+"C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy 2.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy 2.ps1"
+certmgr.msc
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+podman run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\CB\DB\PSQL\CaRMS\helper\1-Add-PATH_v8-AS_SYSTEM.ps1"
+psql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v10-Harish-MSFT-Az-Support.sql
+\du
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v10-Harish-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v10-Harish-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v10-Harish-MSFT-Az-Support.sql
+New-SelfSignedCertificate
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy 2.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+Set-TimeZone 'central standard time'
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\check.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\install.ps1"
+taskschd.msc
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\Remediation.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\check.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\Remediation.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v9\uninstall.ps1"
+git clone --branch v2 --single-branch https://github.com/aollivierre/Modules.git
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v9\uninstall.ps1"
+git clone --branch v2 --single-branch https://github.com/aollivierre/Modules.git
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v9\uninstall.ps1"
+Stop-Transcript
+Stop-Transcript
+Stop-Transcript
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v9\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\check.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+sysdm.cpl
+C:\Code\CB\Terminal\0.6-Install-Modules-TerminalIcons-Z.ps1
+keepassxc-cli
+sysdm.cpl
+keepassxc-cli
+docker info
+wsl -l -v
+# Stop Docker Desktop
+Stop-Process -Name "Docker Desktop" -Force
+# Shutdown WSL
+wsl --shutdown
+# Start Docker Desktop
+Start-Process -FilePath "C:\Program Files\Docker\Docker\Docker Desktop.exe"
+# Start WSL (docker-desktop distribution)
+wsl -d docker-desktop
+docker images -f "dangling=true"
+docker image prune
+docker volume ls -f "dangling=true"
+docker volume prune
+& 'C:\Program Files\Docker\Docker\DockerCli.exe' -SwitchLinuxEngine
+docker info
+docker ps
+code $profile
+docker image prune
+docker volume prune
+ls .devcontainer/Microsoft.VSCode_profile.ps1
+docker volume prune
+docker image prune
+$psversiontable
+docker image prune
+docker volume prune
+code C:\Windows\system32\drivers\etc\hosts
+docker volume prune
+docker image prune
+podman
+podman
+podman --version
+export DOCKER_HOST=unix:///var/run/podman/podman.sock
+echo %DOCKER_HOST%
+echo $env:DOCKER_HOST
+echo $env:PATH
+cls
+echo $env:DOCKER_HOST
+[System.Environment]::SetEnvironmentVariable('DOCKER_HOST', 'unix:///var/run/podman/podman.sock', [System.EnvironmentVariableTarget]::Machine)
+echo $env:DOCKER_HOST
+$PSVersionTable
+New-SelfSignedCertificate
+Get-Service
+git status
+git add C:\code\Intune-Win32-Deployer\Win32Apps
+git status
+cat .gitignore
+$PSVersionTable
+& "C:\Code\CB\Terminal\7-Export-CommandHistory.ps1"
+Get-History
+& "C:\Code\CB\Terminal\7-Export-CommandHistory.ps1"
+(Get-PSReadlineOption).HistorySavePath
+& "C:\Code\CB\Terminal\7-Export-CommandHistory.ps1"
+Get-FileHash
+& "C:\Code\CB\Terminal\7-Export-CommandHistory.ps1"
+"C:\Code\CB\Terminal\7-Export-CommandHistory.ps1"
+& "C:\Code\CB\Terminal\7-Export-CommandHistory.ps1"
+$hash1 = (Get-FileHash -Path "C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt" -Algorithm MD5).Hash; $hash2 = (Get-FileHash -Path "C:\code\configs\PowerShell_history.txt" -Algorithm MD5).Hash; if ($hash1 -eq $hash2) { "Files are identical" } else { "Files are not identical" }
+Compare-Object (Get-Content -Path "C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt") (Get-Content -Path "C:\code\configs\PowerShell_history.txt") -SyncWindow 0
+Get-Content -Path "C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt" -Encoding Byte | Measure-Object -Sum
+Get-Content -Path "C:\code\configs\PowerShell_history.txt" -Encoding Byte | Measure-Object -Sum
+& "C:\Code\CB\Terminal\7-Export-CommandHistory.ps1"
+& "C:\Code\CB\Terminal\7-ExportandImport-CommandHistory.ps1"

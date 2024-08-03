@@ -1,0 +1,1432 @@
+sysdm.cpl
+hostname
+ipconfig
+whoami
+sysdm.cpl
+appwiz.cpl
+winget
+winget search 7zip.7zip
+dsregcmd /status
+Disconnect-Graph
+Disconnect-MgGraph
+hosm
+hostname
+ipconfig
+hostname
+dsregcmd /status
+cd C:\Code\CB\Entra\Test-Export-Data\exports
+ls
+cd C:\Code\CB\Entra\Test-Export-Data\exports
+ls
+# Install the powershell-yaml module if not already installed
+# You might need to run this with administrative privileges
+# Install-Module powershell-yaml -Scope CurrentUser
+# Import the powershell-yaml module
+Import-Module powershell-yaml
+# Get the list of processes
+$processes = Get-Process
+# Convert the processes list to YAML format
+$yamlContent = ConvertTo-Yaml -Data $processes
+# Save the YAML content to a file
+$yamlContent | Out-File -FilePath "processes.yaml"
+cd C:\Code\CB\Entra\Test-Export-Data\exports>
+cd C:\Code\CB\Entra\Test-Export-Data\exports
+# Install the powershell-yaml module if not already installed
+# You might need to run this with administrative privileges
+# Install-Module powershell-yaml -Scope CurrentUser
+# Import the powershell-yaml module
+Import-Module powershell-yaml
+# Get the list of processes
+$processes = Get-Process
+# Convert the processes list to YAML format
+$yamlContent = ConvertTo-Yaml -Data $processes
+# Save the YAML content to a file
+$yamlContent | Out-File -FilePath "processes.yaml"
+cls
+Install-Module powershell-yaml -Scope AllUsers -Force
+Import-Module powershell-yaml
+# Get the list of processes
+$processes = Get-Process
+# Convert the processes list to YAML format
+$yamlContent = ConvertTo-Yaml -Data $processes
+# Save the YAML content to a file
+$yamlContent | Out-File -FilePath "processes.yaml"
+Set-ExecutionPolicy Bypass
+Import-Module powershell-yaml
+# Get the list of processes
+$processes = Get-Process
+# Convert the processes list to YAML format
+$yamlContent = ConvertTo-Yaml -Data $processes
+# Save the YAML content to a file
+$yamlContent | Out-File -FilePath "processes.yaml"
+cls
+# Install the powershell-yaml module if not already installed
+# You might need to run this with administrative privileges
+# Install-Module powershell-yaml -Scope CurrentUser
+# Import the powershell-yaml module
+Import-Module powershell-yaml
+# Get the list of processes
+$processes = Get-Process
+# Convert the processes list to YAML format
+$yamlContent = ConvertTo-Yaml -Data $processes
+# Save the YAML content to a file
+$yamlContent | Out-File -FilePath "processes.yaml"
+cls
+# Import the powershell-yaml module
+Import-Module powershell-yaml
+# Get the list of processes and select a subset of properties that are safe to serialize
+$processes = Get-Process | Select-Object Id, ProcessName, CPU, StartTime
+# Convert the filtered processes list to YAML format
+$yamlContent = ConvertTo-Yaml -Data $processes
+# Save the YAML content to a file
+$yamlContent | Out-File -FilePath "processes.yaml"
+winget
+winget install --id Microsoft.Powershell --source winget
+code $profile
+winget install --id Git.Git --source winget
+hostname
+whoami
+cd c:\code\cb
+ls
+cd .\Entra\
+cd ..
+cd .\DotNet\
+ls
+cd .\Graph\
+ls
+cd .\Httpclient\
+ls
+cd c:\code\cb\
+cd C:\Code\CB\DotNet\Graph\Httpclient
+ls
+cd C:\Code\CB\DotNet\Graph\Httpclient
+ls
+cd C:\Code\CB\DotNet\Graph\Httpclient
+ls
+& '.\1-DotNet-GetUsers copy.ps1'
+cd C:\Code\CB\DotNet\Graph\Httpclient
+ls
+cd cd c:\windows\System32\drivers\etc\
+cd c:\windows\System32\drivers\etc\
+ls
+cls
+code .\hosts
+cd C:\Code\Terminal
+ls
+.\0.1-Create-SourceCode-NetShare-v2.ps1
+cls
+cd C:\Code\Terminal
+ls
+.\0.1-Create-SourceCode-NetShare-v2.ps1
+net.exe share
+Get-PSDrive
+Get-PSDrive -PSProvider 'FileSystem' | Where-Object {`
+        $_.DisplayRoot -like '\\*'  # Filter to only network drives`
+    }
+Get-PSDrive -PSProvider 'FileSystem'
+Get-PSDrive -PSProvider 'FileSystem' | select *
+Get-PSDrive -PSProvider 'FileSystem'
+cd C:\Code\Terminal
+ls
+.\0.1-Create-SourceCode-NetShare-v2.ps1
+cls
+.\0.1-Create-SourceCode-NetShare-v2.ps1
+cls
+cd C:\Code\Terminal
+.\0.1-Create-SourceCode-NetShare-v2.ps1
+cls
+Get-PSDrive -Name $DriveLetter.TrimEnd(':') | Format-List *
+Get-PSDrive -PSProvider 'FileSystem'
+Get-PSDrive -PSProvider 'FileSystem' | select *
+cls
+Get-PSDrive -PSProvider 'FileSystem'
+cd C:\Code\Terminal
+ls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cd C:\Code\Terminal
+ls
+.\0.1-Create-SourceCode-NetShare-v2.ps1
+cd 
+cd C:\Code\Terminal
+ls
+cls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cd C:\Code\Terminal
+ls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cd C:\Code\Terminal
+ls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cd C:\Code\Terminal
+ls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cd C:\Code\Terminal
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cd C:\Code\Terminal
+.\0.1-Create-SourceCode-NetShare-v3.ps1
+cd c:\windows\System32\drivers\etc\
+code .\hosts
+cd c:\windows\System32\drivers\etc\
+Get-PSDrive -PSProvider 'FileSystem' | select *
+cd c:\code\Terminal
+ls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cd c:\code\Terminal
+ls
+cls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+ls
+.\0.2-Create-SourceCode-NetShare-v3.ps1
+whoami
+dsregcmd /status
+cls
+dsregcmd /status
+cd C:\Code\Terminal
+ls
+.\0.2.1-Check-ModuleVersion_AllModules.ps1
+cd C:\Code\Terminal
+ls
+.\0.2.1-Check-ModuleVersion_AllModules.ps1
+cls
+cd C:\Code\Terminal
+.\0.3-Check-ModuleVersion_ByName.ps1
+.\0.4-Install-Modules-CriticalModules.ps1
+cd c:\Code\Terminal
+ls
+cls
+ls
+.\0.4-Install-Modules-CriticalModules.ps1
+cd c:\Code\Terminal
+ls
+.\0.4-Install-Modules-CriticalModules.ps1
+.\0.5-Install-Modules-Universal-v5.ps1
+cd c:\Code\Terminal
+ls
+.\0.5-Install-Modules-Universal-v5.ps1
+cd c:\Code\Terminal
+ls
+.\0.5-Install-Modules-Universal-v5.ps1
+ls
+cd c:\Code\Terminal
+ls
+cls
+cd c:\Code\Terminal
+ls
+.\0.5-Install-Modules-Universal-v5.ps1
+cd c:\Code\Terminal
+ls
+.\0.5-Install-Modules-Universal-v5.ps1
+cd c:\Code\Terminal
+ls
+cd c:\Code\Terminal
+.\0.4-Install-Modules-CriticalModules.ps1
+cd c:\Code\Terminal
+ls
+.\0.4-Install-Modules-CriticalModules.ps1
+cd c:\Code\Terminal
+ls
+.\0.4-Install-Modules-CriticalModules.ps1
+winget
+cls
+winget
+cls
+winget
+WinGet
+ls
+cls
+winget
+winget search --id "JanDeDobbeleer.OhMyPosh"
+winget search --id "MyPosh"
+winget search --id "adobe"
+winget search --id "MyPosh"
+winget list
+appwiz.cpl
+Install-Module
+Get-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V
+docker
+docker --version
+ping 192.168.100.167
+appwiz.cpl
+ipconfig
+cd C:\Code\CB\Teams\
+.\Extract-TeamsPrivateChat.ps1
+ls
+& '.\Extract-TeamsPrivateChat copy.ps1'
+cd C:\Code\CB\Teams\
+& '.\Extract-TeamsPrivateChat copy.ps1'
+cd C:\Code\CB\Teams\Exports\Chats
+C:\Code\CB\Teams\0-Extract-TeamsPrivateChatIDs.ps1
+ls
+C:\Code\CB\Teams\0-Extract-TeamsPrivateChatIDs.ps1
+winver
+& "C:\Code\CB\Docker\PowerShell\0-Check-HyperVFeatures.ps1"
+virtmgmt.msc
+docker
+docker --version
+docker pull mcr.microsoft.com/powershell
+docker run --rm -it mcr.microsoft.com/powershell
+docker ps
+docker image ls
+get-process | Out-GridView
+iwr
+gci
+ls
+irm
+docker pull mcr.microsoft.com/powershell:lts-7.2-nanoserver-ltsc2022
+hostname
+docker ps
+docker image ls
+docker run --rm -it mcr.microsoft.com/powershell:lts-7.2-nanoserver-ltsc2022
+docker ps
+docker image ls
+ls
+gci
+docker ps
+docker image ls
+docker run --rm -it mcr.microsoft.com/powershell:lts-7.2-nanoserver-ltsc2022
+docker pull mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022
+docker run --rm -it mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022
+docker ps
+docker run --rm -it mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022
+hostname
+docker pull mcr.microsoft.com/windows/server
+docker pull mcr.microsoft.com/windows/server:ltsc2022
+docker pull mcr.microsoft.com/windows/nanoserver:ltsc2022
+docker image ls
+docker run --rm -it mcr.microsoft.com/windows/nanoserver:ltsc2022
+docker image ls
+cd C:\Code\CB\Docker\PowerShell\2-Dockerfile
+cd C:\Code\CB\Docker\PowerShell
+ls
+docker build -t nanoserver-powershell742
+docker image ls
+ls
+docker build -t nanoserver-powershell742
+docker build -t nanoserver-powershell742 .
+docker build -t nanoserver-powershell .
+hostname
+docker build -t nanoserver-powershell .
+ls
+docker build -t nanoserver-powershell742 .
+cd C:\Code\CB\Docker\PowerShell
+ls
+docker build -t nanoserver-powershell .
+cd C:\Code\CB\Docker\PowerShell
+docker build -t nanoserver-powershell742 .
+cd C:\Code\CB\Docker\PowerShell
+ls
+docker build -t nanoserver-powershell742 .
+cd C:\Code\CB\Docker\PowerShell
+ls
+docker build -t nanoserver-powershell742 .
+cd C:\Code\CB\Docker\PowerShell
+docker build -t nanoserver-powershell742 .
+cd C:\Code\CB\Docker\PowerShell
+docker build -t nanoserver-powershell742 .
+cd C:\Code\CB\Docker\PowerShell
+docker build -t nanoserver-powershell742 .
+docker image ls
+docker run --rm -it nanoserver-powershell742 pwsh
+docker ps
+docker image ls
+docker run --rm -it mcr.microsoft.com/powershell:lts-7.2-nanoserver-ltsc2022
+hostname
+docker run -it nanoserver-powershell742 pwsh -Command "systeminfo"
+docker run --rm -it nanoserver-powershell742
+docker run --rm -it mcr.microsoft.com/powershell:lts-7.2-nanoserver-ltsc2022
+docker pull mcr.microsoft.com/powershell:7.4-alpine-3.17
+psql
+docker pull mcr.microsoft.com/powershell:7.4-alpine-3.17
+docker run --rm -it mcr.microsoft.com/powershell:7.4-alpine-3.17
+docker ps
+docker image ls
+& "C:\Code\CB\DB\PSQL\CaRMS\helper\1-Add-PATH_v7.ps1"
+& "C:\Code\CB\DB\PSQL\CaRMS\helper\1-Add-PATH_v8-AS_SYSTEM.ps1"
+psql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v6-Harish-MSFT-Az-Support.sql
+cls
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v6-Harish-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v7-Harish-MSFT-Az-Support-Verifysql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v6-Harish-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v7-Harish-MSFT-Az-Support-Verifysql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v6-Harish-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v7-Harish-MSFT-Az-Support-Verifysql
+docker image ls
+& "C:\Code\CB\DotNet\Graph\Httpclient\2-List-DeletedUsers-MG_Graph_API-v2.ps1"
+& "C:\Code\CB\DotNet\Graph\Httpclient\1-Compare-ConditionalAccess-v1-and-Beta-v2.ps1"
+& "C:\Code\CB\DotNet\Graph\Httpclient\2-List-DeletedUsers-MG_Graph_API-v2.ps1"
+docker run --rm -it mcr.microsoft.com/powershell:7.4-alpine-3.17
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/test.ps1"
+wsl
+wsl ?
+wsl -?
+get-vm
+wsl -l -v
+& "C:\Code\CB\Docker\PowerShell\3-Check-WSL.ps1"
+wsl -?
+docker pull mcr.microsoft.com/powershell:7.4-alpine-3.17
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/test.ps1"
+& "C:\Code\CB\Docker\PowerShell\3-Check-WSL.ps1"
+docker run --rm -it -v "C:/Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/test.ps1"
+exit
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/test.ps1"
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/2-List-DeletedUsers-MG_Graph_API-v2.ps1"
+hostname
+cls
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/2-List-DeletedUsers-MG_Graph_API-v2.ps1"
+cls
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/2-List-DeletedUsers-MG_Graph_API-v2.ps1"
+cls
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/2-List-DeletedUsers-MG_Graph_API-v2-PS7-Docker.ps1"
+cls
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/2-List-DeletedUsers-MG_Graph_API-v2-PS7-Docker.ps1"
+cls
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/2-List-DeletedUsers-MG_Graph_API-v2-PS7-Docker.ps1"
+& "C:\Code\CB\Docker\PowerShell\3-Check-WSL.ps1"
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/2-List-DeletedUsers-MG_Graph_API-v2-PS7-Docker.ps1"
+cls
+docker run --rm -it -v "C:\Code\CB\Entra\ARH:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "C:\Code\CB\Entra\ARH\Get-EntraConnectSyncErrorsfromEntra copy.ps1"
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/stc/"
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Entra/ARH/Get-EntraConnectSyncErrorsfromEntra copy.ps1"
+hostname
+cls
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+ls
+cls
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v8-Harish-MSFT-Az-Support.sql
+cls
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v8-Harish-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v7-Harish-MSFT-Az-Support-Verifysql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v7-Harish-MSFT-Az-Support-Verifysql.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v7-Harish-MSFT-Az-Support-Verify.sql
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Ondrej-Sebela-doitpshway.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Ondrej-Sebela-doitpshway copy.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Ondrej-Sebela-doitpshway copy 2.ps1"
+# Find permissions related to auditLogs/signIns
+Find-MgGraphPermission -SearchString "auditLogs/signIns"
+Find-MgGraphPermission application
+Find-MgGraphPermission audit
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Find-MgGraphPermission -SearchString "AuditLog.Read.All" | Format-List
+Find-MgGraphPermission -SearchString "auditLogs"
+# Find permissions related to AuditLog.Read.All
+Find-MgGraphPermission -SearchString "AuditLog.Read.All"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Find-MgGraphPermission policy
+Find-MgGraphPermission conditionalAccess
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Set-ExecutionPolicy Bypass
+cls
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+certlm.msc
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+& "C:\Code\CB\Cert\Export-AllCerts copy 15.ps1"
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgApplication
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgApplication -Filter "DisplayName eq 'graphapp'"
+Get-MgApplication -Filter "DisplayName eq '001-GetAllSignInLogs-Prep-for-Conditional-Access-Require-Device-Marked-Compliant'"
+# Define the app name
+$AppName = "graphapp"
+# Retrieve the application object
+$app = Get-MgApplication -Filter "displayName eq '$AppName'"
+# Check if the application object is not null
+if ($app -ne $null) {`
+    Write-Output "The application '$AppName' exists."`
+} else {`
+    Write-Output "The application '$AppName' does not exist."`
+}
+# Define the app name
+$AppName = "graphapp"
+# Retrieve the application object
+$app = Get-MgApplication -Filter "displayName eq '$AppName'"
+# Check if the application object is not null
+if ($app -ne $null) {`
+    Write-Output "The application '$AppName' exists."`
+} else {`
+    Write-Output "The application '$AppName' does not exist."`
+}
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve the application object`
+    $app = Get-MgApplication -Filter "displayName eq '$AppName'"`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($null -ne $app -and ($app | Measure-Object).Count -gt 0) {`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage
+$appName = "graphapp"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+# Debug logging directly after retrieval
+Write-Output "Retrieved Application: $($app | Format-List)"
+$app = Get-MgApplication -Filter "displayName eq '$AppName'"
+Write-Output "Retrieved Application: $($app | Format-List)"
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve the application object`
+    $app = Get-MgApplication -Filter "displayName eq '$AppName'"`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+        return`
+`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage
+$appName = "graphapp"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+Write-Output "Retrieved Application Details: $($app | Format-List)"
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve the application object`
+    $app = Get-MgApplication -Filter "displayName eq '$AppName'"`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+                return $true`
+    }`
+    return $false`
+}
+# Example usage
+$appName = "graphapp"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve the application object`
+    $app = Get-MgApplication -Filter "displayName eq '$AppName'"`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+                return $true`
+    }`
+    return $false`
+}
+# Example usage
+$appName = "graphapp"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+Get-MgApplication
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve all application objects`
+    $allApps = Get-MgApplication`
+`
+    # Filter the applications to find the one with the specified display name`
+    $app = $allApps | Where-Object { $_.DisplayName -eq $AppName }`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage
+$appName = "graphapp"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve all application objects`
+    $allApps = Get-MgApplication`
+`
+    # Filter the applications to find the one with the specified display name`
+    $app = $allApps | Where-Object { $_.DisplayName -eq $AppName }`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage
+$appName = "graphapp"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve all application objects`
+    $allApps = Get-MgApplication`
+`
+    # Filter the applications to find the one with the specified display name`
+    $app = $allApps | Where-Object { $_.DisplayName -eq $AppName }`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage with a random app name
+$appName = "randomAppNameThatDoesNotExist"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve all application objects`
+    $allApps = Get-MgApplication`
+`
+    # Debug output`
+    Write-Output "Total applications retrieved: $($allApps.Count)"`
+`
+    # Filter the applications to find the one with the specified display name`
+    $app = $allApps | Where-Object { $_.DisplayName -eq $AppName }`
+`
+    # Debug output`
+    Write-Output "Filtered applications count: $($app.Count)"`
+    Write-Output "Filtered applications details: $($app | Format-List)"`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage with a random app name
+$appName = "randomAppNameThatDoesNotExist"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve all application objects`
+    $allApps = Get-MgApplication`
+`
+    # Debug output`
+    Write-Output "Total applications retrieved: $($allApps.Count)"`
+`
+    # Filter the applications to find the one with the specified display name`
+    $app = $allApps | Where-Object { $_.DisplayName -eq $AppName }`
+`
+    # Debug output`
+    Write-Output "Filtered applications count: $($app.Count)"`
+    Write-Output "Filtered applications details: $($app | Format-List)"`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage with a random app name
+$appName = "randomAppNameThatDoesNotExist"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve all application objects`
+    $allApps = Get-MgApplication`
+`
+    # Debug output`
+    Write-Output "Total applications retrieved: $($allApps.Count)"`
+`
+    # Filter the applications to find the one with the specified display name`
+    $app = $allApps | Where-Object { $_.DisplayName -eq $AppName }`
+`
+    # Debug output`
+    Write-Output "Filtered applications count: $($app.Count)"`
+    Write-Output "Filtered applications details: $($app | Format-List)"`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app.Count -gt 0) {`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage with a random app name
+$appName = "randomAppNameThatDoesNotExist"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Get-MgApplication
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgApplication
+    # Retrieve all application objects
+    $allApps = Get-MgApplication
+    # List all applications
+    $allApps | Format-Table Id, DisplayName, AppId, SignInAudience, PublisherDomain -AutoSize
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgApplication
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgAdminPeople
+Get-MgApplication
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgApplication
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Disconnect-MgGraph
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgApplication
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgApplication
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+cls
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+certlm.msc
+certmgr.msc
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+# Import the module
+Import-Module Microsoft.Graph.Applications
+# Connect to Microsoft Graph
+Connect-MgGraph -Scopes "Application.ReadWrite.All"
+# Get and remove applications starting with 'GraphApp-Test001'
+Get-MgApplication -Filter "startswith(displayName, 'GraphApp-Test001')" | ForEach-Object {`
+    Remove-MgApplication -ApplicationId $_.Id -Confirm:$false`
+}
+# Disconnect the session
+Disconnect-MgGraph
+# Import the module
+Import-Module Microsoft.Graph.Applications
+# Connect to Microsoft Graph
+Connect-MgGraph -Scopes "Application.ReadWrite.All"
+# Remove active applications starting with 'GraphApp-Test001'
+Get-MgApplication -Filter "startswith(displayName, 'GraphApp-Test001')" | ForEach-Object {`
+    Remove-MgApplication -ApplicationId $_.Id -Confirm:$false`
+}
+# Remove deleted applications starting with 'GraphApp-Test001'
+Get-MgDeletedApplication -Filter "startswith(displayName, 'GraphApp-Test001')" | ForEach-Object {`
+    Remove-MgDeletedApplication -ApplicationId $_.Id -Confirm:$false`
+}
+# Disconnect the session
+Disconnect-MgGraph
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+& "C:\Code\Unified365toolbox\test\validateapp.ps1"
+Get-MgApplication
+Get-MgApplication | Where-Object { $_.AppId -eq "2529228f-e992-43e1-b9b7-9a1bd7224b61" }
+& "C:\Code\Unified365toolbox\test\validateapp.ps1"
+Get-MgApplication | Where-Object { $_.AppId -eq "2529228f-e992-43e1-b9b7-9a1bd7224b61" }
+& "C:\Code\Unified365toolbox\test\validateapp.ps1"
+Disconnect-MgGraph
+Connect-MgGraph -Scopes "Application.ReadWrite.All"
+& "C:\Code\Unified365toolbox\test\validateapp.ps1"
+Connect-MgGraph -Scopes "Application.ReadWrite.All, Directory.ReadWrite.All"
+Disconnect-MgGraph
+Connect-MgGraph -Scopes "Application.ReadWrite.All, Directory.ReadWrite.All"
+Find-MgGraphcommand Add-MgApplicationKey
+Find-MgGraphcommand Add-MgApplicationKey | select *
+& "C:\Code\Unified365toolbox\test\validateapp.ps1"
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+# Import the module
+Import-Module Microsoft.Graph.Applications
+# Connect to Microsoft Graph
+Connect-MgGraph -Scopes "Application.ReadWrite.All"
+# Get and remove applications starting with 'GraphApp-Test001'
+Get-MgApplication -Filter "startswith(displayName, 'GraphApp-Test001')" | ForEach-Object {`
+    Remove-MgApplication -ApplicationId $_.Id -Confirm:$false`
+}
+# Disconnect the session
+Disconnect-MgGraph
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+md C:\Code\CB\Entra\Ladco\Graph\export
+&"C:\Code\CB\Entra\Universal\CAP\1-Compare-ConditionalAccess-v1-and-Beta.ps1"
+Disconnect-MgGraph
+&"C:\Code\CB\Entra\Universal\CAP\1-Compare-ConditionalAccess-v1-and-Beta.ps1"
+Get-MgContext
+Disconnect-MgGraph
+& "C:\Code\CB\Entra\Universal\CAP\4.1-Delete-allConditionalAccessPolicies-v4-API.ps1"
+Find-MgGraphcommand Get-MgBetaIdentityConditionalAccessPolicy
+& "C:\Code\CB\Entra\Universal\CAP\4.1-Delete-allConditionalAccessPolicies-v4-API.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\2-Exclude-EntraGroup-AllConditionalAccessPolicies copy 9.ps1"
+Find-MgGraphcommand New-MgGroup
+& "C:\Code\CB\Entra\Universal\CAP\2-Exclude-EntraGroup-AllConditionalAccessPolicies copy 9.ps1"
+Install-Script -Name Upload-WindowsAutopilotDeviceInfo
+Install-Script -Name Get-WindowsAutoPilotInfo -Confirm:$false -Force:$true
+& "C:\Code\WinGet-Wrapper\WinGet-WrapperImportGUI.exe"
+Install-Module 'Microsoft.Graph.Groups' -Scope allusers
+appwiz.cpl
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\apps-winget\TeamViewer-Ladco-Managed-by-CCI\Install.ps1"
+cls
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\apps-winget\TeamViewer-Ladco-Managed-by-CCI-v5\Install.ps1"
+appwiz.cpl
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\apps-winget\TeamViewer-Ladco-Managed-by-CCI-v5\Install.ps1"
+hostname
+resolve-path
+cls
+& "C:\Code\CB\Terminal\0.6-Install-Modules-TerminalIcons-Z.ps1"
+cd C:\Code\IntuneManagement
+ls
+.\Start-IntuneManagement.ps1
+& "C:\Code\WinGet-Wrapper\WinGet-WrapperImportGUI.exe"
+cd C:\code\WinGet-Wrapper\
+ls
+.\WinGet-WrapperImportGUI.exe
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Disconnect-MgGraph
+Connect-MgGraph -Scopes "Application.ReadWrite.All, Directory.ReadWrite.All"
+Disconnect-MgGraph
+cls
+# Install v1.0 and beta Microsoft Graph PowerShell modules 
+  Install-Module Microsoft.Graph -Force
+  Install-Module Microsoft.Graph.Beta -AllowClobber -Force 
+  # Connect With Global Admin Account
+  Connect-MgGraph -scopes "Organization.ReadWrite.All,Directory.ReadWrite.All" 
+  # Verify the current status of the DirSync Type
+  Get-MgOrganization | Select OnPremisesSyncEnabled 
+  # Store the Tenant ID in a variable named organizationId
+  $organizationId = (Get-MgOrganization).Id 
+  # Store the False value for the DirSyncEnabled Attribute
+  $params = @{`
+  onPremisesSyncEnabled = $false`
+  }
+  # Perform the update
+  Update-MgBetaOrganization -OrganizationId $organizationId -BodyParameter $params 
+  # Check that the command worked
+  Get-MgOrganization | Select OnPremisesSyncEnabled
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Disconnect-MgGraph
+Connect-MgGraph -Scopes "Application.ReadWrite.All, Directory.ReadWrite.All"
+# Import the module
+Import-Module Microsoft.Graph.Applications
+# Connect to Microsoft Graph
+Connect-MgGraph -Scopes "Application.ReadWrite.All"
+# Import the module
+Import-Module Microsoft.Graph.Applications
+# Connect to Microsoft Graph
+Connect-MgGraph -Scopes "Application.ReadWrite.All"
+# Get and remove applications starting with 'GraphApp-Test001'
+Get-MgApplication -Filter "startswith(displayName, 'GraphApp-Test001')" | ForEach-Object {`
+    Remove-MgApplication -ApplicationId $_.Id -Confirm:$false`
+}
+# Disconnect the session
+Disconnect-MgGraph
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Find-MgGraphcommand https://graph.microsoft.com/v1.0/organization
+Find-MgGraphcommand https://graph.microsoft.com/v1.0/organization | select Permissions
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Find-MgGraphcommand https://graph.microsoft.com/v1.0/organization | select Permissions
+Find-MgGraphcommand https://graph.microsoft.com/v1.0/organization
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v9-Harish-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v7-Harish-MSFT-Az-Support-Verify.sql
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Invoke-MgGraphRequest -Method GET https://graph.microsoft.com/v1.0/me
+Invoke-MgGraphRequest -Method GET -Uri "https://graph.microsoft.com/v1.0/organization"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+# Ensure you are authenticated
+Connect-MgGraph -Scopes "Directory.Read.All"
+# Make the Graph API request
+$tenantResponse = Invoke-MgGraphRequest -Method GET -Uri "https://graph.microsoft.com/v1.0/organization" -Verbose
+# Output the raw response content
+$tenantResponse.Content
+# Ensure you are authenticated
+Connect-MgGraph -Scopes "Directory.Read.All"
+# Make the Graph API request
+$tenantResponse = Invoke-MgGraphRequest -Method GET -Uri "https://graph.microsoft.com/v1.0/organization" -Verbose
+# Capture and output the raw response content
+$rawContent = $tenantResponse.Content
+Write-Output $rawContent
+# Ensure you are authenticated
+Connect-MgGraph -Scopes "Directory.Read.All"
+# Fetch organization details using the Graph cmdlet
+$organization = Get-MgOrganization
+# Output the organization details
+$organization | Format-List
+Get-MgContext
+Disconnect-MgGraph
+# Ensure you are authenticated
+Connect-MgGraph -Scopes "Directory.Read.All"
+# Fetch organization details using the Graph cmdlet
+$organization = Get-MgOrganization
+# Extract the required details
+$tenantDetails = $organization[0]
+$tenantName = $tenantDetails.DisplayName
+$tenantId = $tenantDetails.Id
+$tenantDomain = $tenantDetails.VerifiedDomains[0].Name
+# Assume $signInLogs is already defined somewhere in your script
+# $signInLogs = <Your logic to get sign-in logs>
+if ($signInLogs -and $signInLogs.Count -gt 0) {`
+    $appId = $signInLogs[0].appId`
+    $appName = $signInLogs[0].appDisplayName`
+} else {`
+    $appId = "N/A"`
+    $appName = "N/A"`
+}
+# Output tenant summary
+Write-EnhancedLog -Message "Tenant Name: $tenantName" -Level "INFO" -ForegroundColor ([ConsoleColor]::White)
+Write-EnhancedLog -Message "Tenant ID: $tenantId" -Level "INFO" -ForegroundColor ([ConsoleColor]::White)
+Write-EnhancedLog -Message "Tenant Domain: $tenantDomain" -Level "INFO" -ForegroundColor ([ConsoleColor]::White)
+Write-EnhancedLog -Message "App ID: $appId" -Level "INFO" -ForegroundColor ([ConsoleColor]::White)
+Write-EnhancedLog -Message "App Name: $appName" -Level "INFO" -ForegroundColor ([ConsoleColor]::White)
+# Ensure you are authenticated
+Connect-MgGraph -Scopes "Directory.Read.All"
+# Fetch organization details using the Graph cmdlet
+$organization = Get-MgOrganization
+# Output the organization details
+$organization | Format-List
+cls
+Disconnect-MgGraph
+cls
+Disconnect-MgGraph
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+certlm.msc
+certmgr.msc
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+& "C:\Code\Unified365toolbox\Graph\Modules\EnhancedGraphAO\2.5.0\Public\Add-AppAPIPermissions.ps1"
+Get-MgApplication
+& "C:\Code\Unified365toolbox\Graph\Modules\EnhancedGraphAO\2.5.0\Public\Add-AppAPIPermissions.ps1"
+cls
+Disconnect-MgGraph
+cls
+CLS
+CLS
+Get-History
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+get-process
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Connect-MGGraphwithCert-Template-v1.1.ps1"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Connect-MGGraphwithCert-Template-v1.1.ps1"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run -d --name powershell_container -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 tail -f /dev/null
+hostname
+# Start the Docker container
+docker run -d --name powershell_container -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 tail -f /dev/null
+# Enter the running Docker container
+docker exec -it powershell_container pwsh
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Connect-MGGraphwithCert-Template-v1.1.ps1"
+cls
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Connect-MGGraphwithCert-Template-v1.1.ps1"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\Helpers\Get-SignInLogs-Jso-NonBYOD_NOCAP_NOTCOMPLIANT.ps1"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\VPN\1-Export-VPNSettings.ps1"
+& "C:\Code\CB\VPN\1-Export-VPNSettings copy.ps1"
+taskschd.msc
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\install.ps1"
+$PSVersionTable
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\uninstall.ps1"
+cd "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\Remediation.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\Remediation.ps1"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\Remediation.ps1"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\Remediation.ps1"
+whoami
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\Remediation.ps1"
+Get-VpnConnection
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\Remediation.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\check.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\check.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+whoami
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+docker run --rm -it -v "C:\:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run --rm -it -v "C::/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run --rm -it -v "C:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run --rm -it -v "C:\:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+Ensure-LoggingFunctionExists
+cls
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+$env:PSModulePath -split ';'
+Get-Module
+Write-EnhancedLog -Message "hello world" -ForegroundColor ([ConsoleColor]::green)
+$env:PSModulePath -split ';'
+Get-Module -ListAvailable | Where-Object { $_.Name -like 'Enhanced*' }
+Write-EnhancedLog -Message "hello world" -ForegroundColor ([ConsoleColor]::green)
+Import-Module EnhancedLoggingAO
+Write-EnhancedLog -Message "hello world" -ForegroundColor ([ConsoleColor]::green)
+Get-Module -ListAvailable | Where-Object { $_.Name -eq 'EnhancedLoggingAO' }
+Write-EnhancedLog -Message "hello world" -ForegroundColor ([ConsoleColor]::green)
+Get-Module -ListAvailable | Where-Object { $_.Name -eq 'EnhancedLoggingAO' }
+Import-Module -Name EnhancedLoggingAO -Verbose
+import-module "C:\Program Files\PowerShell\7\Modules\EnhancedLoggingAO\2.5.0\EnhancedLoggingAO.psm1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+Get-Module
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+Get-Module
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+Get-Module
+Get-Module -ListAvailable | Where-Object { $_.Name -eq 'EnhancedLoggingAO' }
+Get-Module -ListAvailable | Where-Object { $_.Name -like 'Enhanced*' }
+Get-Module -ListAvailable | Where-Object { $_.Name -like '*Enhanced*' }
+import-module "C:\Program Files\PowerShell\Modules\EnhancedLoggingAO\2.5.0\EnhancedLoggingAO.psm1"
+Write-EnhancedLog -Message "hello world" -ForegroundColor ([ConsoleColor]::green)
+cls
+code $profile
+Write-EnhancedLog -Message "hello world" -ForegroundColor ([ConsoleColor]::green)
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+code $profile
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+Write-EnhancedLog -Message "hello world" -ForegroundColor ([ConsoleColor]::green)
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+Get-Module -ListAvailable
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+hostname
+docker exec -it my_pwsh_container pwsh
+docker ps
+docker ls
+docker ps
+docker exec -it my_pwsh_container pwsh
+docker ps
+docker exec -it 3a66f95bcaa8
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run -d -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+hostname
+docker run -d -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker ps -a
+docker exec -it my_pwsh_container pwsh
+docker run -d -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker exec -it my_pwsh_container pwsh
+docker run -d -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17
+docker exec -it my_pwsh_container pwsh
+docker run -it -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+docker pull mcr.microsoft.com/powershell:windowsservercore-ltsc2022
+docker run -it -v "C:/:C:/" --name my_pwsh_container mcr.microsoft.com/powershell:windowsservercore-ltsc2022 pwsh
+docker run -it -v "C:\:C:\data" --name my_pwsh_container mcr.microsoft.com/powershell:windowsservercore-ltsc2022 pwsh
+docker run -it -v "C:\:C:\data" --name my_pwsh_container mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker ps
+docker run -it -v "C:\:C:\" --name my_pwsh_container mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker run -it -v "C:\:C:\data" --name my_pwsh_container mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker run -it -v "C:\:C:\a" --name my_pwsh_container mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 pwsh
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\scripts\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker pull mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 powershell -ExecutionPolicy Bypass
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass
+docker run -it -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh
+docker run -it -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 powershell
+docker run -it -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh
+docker run -it -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 powershell
+cls
+exit
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass
+exit
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_nano-pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_nano-pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass -runas admin
+exit
+docker rm $(docker ps -a -q)
+ls
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_nano-pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_nano-pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_nano-pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+exit
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+hostname
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker info --format '{{.OSType}}'
+& $Env:ProgramFiles\Docker\Docker\DockerCli.exe -SwitchDaemon
+docker info --format '{{.OSType}}'
+& $Env:ProgramFiles\Docker\Docker\DockerCli.exe -SwitchDaemon;docker info --format '{{.OSType}}'
+docker rm $(docker ps -a -q)
+cls
+& $Env:ProgramFiles\Docker\Docker\DockerCli.exe -SwitchDaemon;docker info --format '{{.OSType}}'
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q); docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+& $Env:ProgramFiles\Docker\Docker\DockerCli.exe -SwitchDaemon;docker info --format '{{.OSType}}'
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+get-error
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+# Define an array of numbers
+$numbers = 1..10
+# Use ForEach-Object -Parallel to process each number in parallel
+$results = $numbers | ForEach-Object -Parallel {`
+    # Simulate some work by sleeping for a random amount of time`
+    Start-Sleep -Seconds (Get-Random -Minimum 1 -Maximum 5)`
+    # Return the square of the number`
+    $_ * $_`
+}
+# Output the results
+$results
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+function Get-Square {`
+    param (`
+        [int]$Number`
+    )`
+    return $Number * $Number`
+}
+$numbers = 1..10
+$results = $numbers | ForEach-Object -Parallel {`
+    # Import the module`
+    Import-Module $using:modulePath`
+`
+    # Define the custom function`
+    Invoke-Expression $using:function:GetSquare`
+`
+    # Use the custom function`
+    Get-Square -Number $_`
+} -ThrottleLimit 4
+# Output the results
+$results
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+$pwd
+ps | Select name, id | convertto-json | set-content test.json
+$reader = [System.IO.StreamReader]::new("$pwd\test.json")
+$jarray = [Newtonsoft.Json.Linq.JArray]::Load([NewtonSoft.Json.JsonTextReader]$reader)
+$jarray.SelectToken('$').SelectTokens('$..[?(@.Name == ''pwsh'')]')
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+class ProcInfo {`
+    [string] $Name`
+    [int] $Id`
+}
+ps | Select name, id | convertto-json | set-content test.json
+$reader = [System.IO.StreamReader]::new("$pwd\test.json")
+$jarray = [Newtonsoft.Json.Linq.JArray]::Load([NewtonSoft.Json.JsonTextReader]$reader)
+class ProcInfo {`
+    [string] $Name`
+    [int] $Id`
+}
+ps | Select name, id | convertto-json | set-content test.json
+$reader = [System.IO.StreamReader]::new("$pwd\test.json")
+$jarray = [Newtonsoft.Json.Linq.JArray]::Load([NewtonSoft.Json.JsonTextReader]$reader)
+$jarray.SelectToken('$').SelectTokens('$..[?(@.Name == ''pwsh'')]').ToObject[ProcInfo]()
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ-v2.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ-v2.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ-v3.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ-v2.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ-v3.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ-v2.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ-v3.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ.ps1
+& "C:\Code\CB\Terminal\7-ExportandImport-CommandHistory.ps1"

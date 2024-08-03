@@ -1,0 +1,1085 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="ModuleName">Microsoft.Graph.Authentication</S>
+      <S N="InstalledVersion">2.17.0</S>
+      <S N="LatestVersion">2.17.0</S>
+      <S N="ModuleBase">D:\Users\aollivierre\Documents\PowerShell\Modules\Microsoft.Graph.Authentication\2.17.0</S>
+      <S N="ModulePath">D:\Users\aollivierre\Documents\PowerShell\Modules\Microsoft.Graph.Authentication\2.17.0\Microsoft.Graph.Authentication.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="1">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.Graph.Users</S>
+      <S N="InstalledVersion">2.17.0</S>
+      <S N="LatestVersion">2.17.0</S>
+      <S N="ModuleBase">D:\Users\aollivierre\Documents\PowerShell\Modules\Microsoft.Graph.Users\2.17.0</S>
+      <S N="ModulePath">D:\Users\aollivierre\Documents\PowerShell\Modules\Microsoft.Graph.Users\2.17.0\Microsoft.Graph.Users.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="2">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Terminal-Icons</S>
+      <S N="InstalledVersion">0.11.0</S>
+      <S N="LatestVersion">0.11.0</S>
+      <S N="ModuleBase">D:\Users\aollivierre\Documents\PowerShell\Modules\Terminal-Icons\0.11.0</S>
+      <S N="ModulePath">D:\Users\aollivierre\Documents\PowerShell\Modules\Terminal-Icons\0.11.0\Terminal-Icons.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="3">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">z</S>
+      <S N="InstalledVersion">1.1.13</S>
+      <S N="LatestVersion">1.1.13</S>
+      <S N="ModuleBase">D:\Users\aollivierre\Documents\PowerShell\Modules\z\1.1.13</S>
+      <S N="ModulePath">D:\Users\aollivierre\Documents\PowerShell\Modules\z\1.1.13\z.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="4">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">CimCmdlets</S>
+      <S N="InstalledVersion">7.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\program files\powershell\7\Modules\CimCmdlets</S>
+      <S N="ModulePath">C:\program files\powershell\7\Modules\CimCmdlets\CimCmdlets.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="5">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.PowerShell.Archive</S>
+      <S N="InstalledVersion">1.2.5</S>
+      <S N="LatestVersion">1.2.5</S>
+      <S N="ModuleBase">C:\program files\powershell\7\Modules\Microsoft.PowerShell.Archive</S>
+      <S N="ModulePath">C:\program files\powershell\7\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="6">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.PowerShell.Diagnostics</S>
+      <S N="InstalledVersion">7.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\program files\powershell\7\Modules\Microsoft.PowerShell.Diagnostics</S>
+      <S N="ModulePath">C:\program files\powershell\7\Modules\Microsoft.PowerShell.Diagnostics\Microsoft.PowerShell.Diagnostics.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="7">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.PowerShell.Host</S>
+      <S N="InstalledVersion">7.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\program files\powershell\7\Modules\Microsoft.PowerShell.Host</S>
+      <S N="ModulePath">C:\program files\powershell\7\Modules\Microsoft.PowerShell.Host\Microsoft.PowerShell.Host.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="8">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.PowerShell.Management</S>
+      <S N="InstalledVersion">7.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\program files\powershell\7\Modules\Microsoft.PowerShell.Management</S>
+      <S N="ModulePath">C:\program files\powershell\7\Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="9">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.PowerShell.PSResourceGet</S>
+      <S N="InstalledVersion">1.0.4.1</S>
+      <S N="LatestVersion">1.0.4.1</S>
+      <S N="ModuleBase">C:\program files\powershell\7\Modules\Microsoft.PowerShell.PSResourceGet</S>
+      <S N="ModulePath">C:\program files\powershell\7\Modules\Microsoft.PowerShell.PSResourceGet\Microsoft.PowerShell.PSResourceGet.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="10">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.PowerShell.Security</S>
+      <S N="InstalledVersion">7.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\program files\powershell\7\Modules\Microsoft.PowerShell.Security</S>
+      <S N="ModulePath">C:\program files\powershell\7\Modules\Microsoft.PowerShell.Security\Microsoft.PowerShell.Security.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="11">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.PowerShell.Utility</S>
+      <S N="InstalledVersion">7.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\program files\powershell\7\Modules\Microsoft.PowerShell.Utility</S>
+      <S N="ModulePath">C:\program files\powershell\7\Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="12">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.WSMan.Management</S>
+      <S N="InstalledVersion">7.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\program files\powershell\7\Modules\Microsoft.WSMan.Management</S>
+      <S N="ModulePath">C:\program files\powershell\7\Modules\Microsoft.WSMan.Management\Microsoft.WSMan.Management.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="13">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">PackageManagement</S>
+      <S N="InstalledVersion">1.4.8.1</S>
+      <S N="LatestVersion">1.4.8.1</S>
+      <S N="ModuleBase">C:\program files\powershell\7\Modules\PackageManagement</S>
+      <S N="ModulePath">C:\program files\powershell\7\Modules\PackageManagement\PackageManagement.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="14">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">PowerShellGet</S>
+      <S N="InstalledVersion">2.2.5</S>
+      <S N="LatestVersion">2.2.5</S>
+      <S N="ModuleBase">C:\program files\powershell\7\Modules\PowerShellGet</S>
+      <S N="ModulePath">C:\program files\powershell\7\Modules\PowerShellGet\PowerShellGet.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="15">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">PSDiagnostics</S>
+      <S N="InstalledVersion">7.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\program files\powershell\7\Modules\PSDiagnostics</S>
+      <S N="ModulePath">C:\program files\powershell\7\Modules\PSDiagnostics\PSDiagnostics.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="16">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">PSReadLine</S>
+      <S N="InstalledVersion">2.3.5</S>
+      <S N="LatestVersion">2.3.5</S>
+      <S N="ModuleBase">C:\program files\powershell\7\Modules\PSReadLine</S>
+      <S N="ModulePath">C:\program files\powershell\7\Modules\PSReadLine\PSReadLine.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="17">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">ThreadJob</S>
+      <S N="InstalledVersion">2.0.3</S>
+      <S N="LatestVersion">2.0.3</S>
+      <S N="ModuleBase">C:\program files\powershell\7\Modules\ThreadJob</S>
+      <S N="ModulePath">C:\program files\powershell\7\Modules\ThreadJob\ThreadJob.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="18">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">AzureAD</S>
+      <S N="InstalledVersion">2.0.2.182</S>
+      <S N="LatestVersion">2.0.2.182</S>
+      <S N="ModuleBase">C:\Program Files\WindowsPowerShell\Modules\AzureAD\2.0.2.182</S>
+      <S N="ModulePath">C:\Program Files\WindowsPowerShell\Modules\AzureAD\2.0.2.182\AzureAD.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="19">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">ExchangeOnlineManagement</S>
+      <S N="InstalledVersion">3.4.0</S>
+      <S N="LatestVersion">3.4.0</S>
+      <S N="ModuleBase">C:\Program Files\WindowsPowerShell\Modules\ExchangeOnlineManagement\3.4.0</S>
+      <S N="ModulePath">C:\Program Files\WindowsPowerShell\Modules\ExchangeOnlineManagement\3.4.0\ExchangeOnlineManagement.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="20">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">ImportExcel</S>
+      <S N="InstalledVersion">7.8.6</S>
+      <S N="LatestVersion">7.8.6</S>
+      <S N="ModuleBase">C:\Program Files\WindowsPowerShell\Modules\ImportExcel\7.8.6</S>
+      <S N="ModulePath">C:\Program Files\WindowsPowerShell\Modules\ImportExcel\7.8.6\ImportExcel.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="21">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">IntuneWin32App</S>
+      <S N="InstalledVersion">1.3.5</S>
+      <S N="LatestVersion">1.4.4</S>
+      <S N="ModuleBase">C:\Program Files\WindowsPowerShell\Modules\IntuneWin32App\1.3.5</S>
+      <S N="ModulePath">C:\Program Files\WindowsPowerShell\Modules\IntuneWin32App\1.3.5\IntuneWin32App.psd1</S>
+      <S N="Status">outdated</S>
+      <S N="Updated">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="22">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.Graph.Beta.Identity.SignIns</S>
+      <S N="InstalledVersion">2.16.0</S>
+      <S N="LatestVersion">2.17.0</S>
+      <S N="ModuleBase">C:\Program Files\WindowsPowerShell\Modules\Microsoft.Graph.Beta.Identity.SignIns\2.16.0</S>
+      <S N="ModulePath">C:\Program Files\WindowsPowerShell\Modules\Microsoft.Graph.Beta.Identity.SignIns\2.16.0\Microsoft.Graph.Beta.Identity.SignIns.psd1</S>
+      <S N="Status">outdated</S>
+      <S N="Updated">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="23">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.Graph.Groups</S>
+      <S N="InstalledVersion">2.16.0</S>
+      <S N="LatestVersion">2.17.0</S>
+      <S N="ModuleBase">C:\Program Files\WindowsPowerShell\Modules\Microsoft.Graph.Groups\2.16.0</S>
+      <S N="ModulePath">C:\Program Files\WindowsPowerShell\Modules\Microsoft.Graph.Groups\2.16.0\Microsoft.Graph.Groups.psd1</S>
+      <S N="Status">outdated</S>
+      <S N="Updated">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="24">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.Graph.Identity.DirectoryManagement</S>
+      <S N="InstalledVersion">2.16.0</S>
+      <S N="LatestVersion">2.17.0</S>
+      <S N="ModuleBase">C:\Program Files\WindowsPowerShell\Modules\Microsoft.Graph.Identity.DirectoryManagement\2.16.0</S>
+      <S N="ModulePath">C:\Program Files\WindowsPowerShell\Modules\Microsoft.Graph.Identity.DirectoryManagement\2.16.0\Microsoft.Graph.Identity.DirectoryManagement.psd1</S>
+      <S N="Status">outdated</S>
+      <S N="Updated">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="25">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.Graph.Intune</S>
+      <S N="InstalledVersion">6.1907.1.0</S>
+      <S N="LatestVersion">6.1907.1.0</S>
+      <S N="ModuleBase">C:\Program Files\WindowsPowerShell\Modules\Microsoft.Graph.Intune\6.1907.1.0</S>
+      <S N="ModulePath">C:\Program Files\WindowsPowerShell\Modules\Microsoft.Graph.Intune\6.1907.1.0\Microsoft.Graph.Intune.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="26">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.PowerShell.Operation.Validation</S>
+      <S N="InstalledVersion">1.0.1</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Program Files\WindowsPowerShell\Modules\Microsoft.PowerShell.Operation.Validation\1.0.1</S>
+      <S N="ModulePath">C:\Program Files\WindowsPowerShell\Modules\Microsoft.PowerShell.Operation.Validation\1.0.1\Microsoft.PowerShell.Operation.Validation.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="27">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">MSAL.PS</S>
+      <S N="InstalledVersion">4.37.0.0</S>
+      <S N="LatestVersion">4.37.0.0</S>
+      <S N="ModuleBase">C:\Program Files\WindowsPowerShell\Modules\MSAL.PS\4.37.0.0</S>
+      <S N="ModulePath">C:\Program Files\WindowsPowerShell\Modules\MSAL.PS\4.37.0.0\MSAL.PS.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="28">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Pester</S>
+      <S N="InstalledVersion">3.4.0</S>
+      <S N="LatestVersion">5.5.0</S>
+      <S N="ModuleBase">C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0</S>
+      <S N="ModulePath">C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Pester.psd1</S>
+      <S N="Status">outdated</S>
+      <S N="Updated">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="29">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">powershell-yaml</S>
+      <S N="InstalledVersion">0.4.7</S>
+      <S N="LatestVersion">0.4.7</S>
+      <S N="ModuleBase">C:\Program Files\WindowsPowerShell\Modules\powershell-yaml\0.4.7</S>
+      <S N="ModulePath">C:\Program Files\WindowsPowerShell\Modules\powershell-yaml\0.4.7\powershell-yaml.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="30">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">PSWriteHTML</S>
+      <S N="InstalledVersion">1.17.0</S>
+      <S N="LatestVersion">1.17.0</S>
+      <S N="ModuleBase">C:\Program Files\WindowsPowerShell\Modules\PSWriteHTML\1.17.0</S>
+      <S N="ModulePath">C:\Program Files\WindowsPowerShell\Modules\PSWriteHTML\1.17.0\PSWriteHTML.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="31">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">AppBackgroundTask</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\AppBackgroundTask</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\AppBackgroundTask\AppBackgroundTask.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="32">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">AssignedAccess</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\AssignedAccess</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\AssignedAccess\AssignedAccess.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="33">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">BitLocker</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\BitLocker</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\BitLocker\BitLocker.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="34">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">BitsTransfer</S>
+      <S N="InstalledVersion">2.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\BitsTransfer</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\BitsTransfer\BitsTransfer.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="35">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">BranchCache</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\BranchCache</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\BranchCache\BranchCache.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="36">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">ConfigDefenderPerformance</S>
+      <S N="InstalledVersion">1.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\ConfigDefenderPerformance</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\ConfigDefenderPerformance\ConfigDefenderPerformance.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="37">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">DefenderPerformance</S>
+      <S N="InstalledVersion">1.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\DefenderPerformance</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\DefenderPerformance\DefenderPerformance.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="38">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">DeliveryOptimization</S>
+      <S N="InstalledVersion">1.0.3.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\DeliveryOptimization</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\DeliveryOptimization\DeliveryOptimization.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="39">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">DirectAccessClientComponents</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\DirectAccessClientComponents</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\DirectAccessClientComponents\DirectAccessClientComponents.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="40">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Dism</S>
+      <S N="InstalledVersion">3.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Dism\Dism.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="41">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">DnsClient</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\DnsClient</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\DnsClient\DnsClient.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="42">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">EventTracingManagement</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\EventTracingManagement</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\EventTracingManagement\EventTracingManagement.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="43">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Get-NetView</S>
+      <S N="InstalledVersion">2022.3.14.193</S>
+      <S N="LatestVersion">2023.2.7.226</S>
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Get-NetView</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Get-NetView\Get-NetView.psd1</S>
+      <S N="Status">outdated</S>
+      <S N="Updated">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="44">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">International</S>
+      <S N="InstalledVersion">2.1.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\International</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\International\International.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="45">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Kds</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Kds</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Kds\Kds.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="46">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">LanguagePackManagement</S>
+      <S N="InstalledVersion">1.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\LanguagePackManagement</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\LanguagePackManagement\LanguagePackManagement.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="47">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">LAPS</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\LAPS</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\LAPS\LAPS.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="48">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.PowerShell.LocalAccounts</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.LocalAccounts\1.0.0.0</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.LocalAccounts\1.0.0.0\Microsoft.PowerShell.LocalAccounts.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="49">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.Windows.Bcd.Cmdlets</S>
+      <S N="InstalledVersion">1.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Microsoft.Windows.Bcd.Cmdlets</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Microsoft.Windows.Bcd.Cmdlets\Microsoft.Windows.Bcd.Cmdlets.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="50">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">MMAgent</S>
+      <S N="InstalledVersion">1.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\MMAgent</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\MMAgent\MMAgent.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="51">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">NetAdapter</S>
+      <S N="InstalledVersion">2.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetAdapter</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetAdapter\NetAdapter.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="52">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">NetConnection</S>
+      <S N="InstalledVersion">2.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetConnection</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetConnection\NetConnection.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="53">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">NetEventPacketCapture</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetEventPacketCapture</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetEventPacketCapture\NetEventPacketCapture.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="54">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">NetLbfo</S>
+      <S N="InstalledVersion">2.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetLbfo</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetLbfo\NetLbfo.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="55">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">NetNat</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetNat</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetNat\NetNat.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="56">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">NetQos</S>
+      <S N="InstalledVersion">2.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetQos</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetQos\NetQos.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="57">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">NetSecurity</S>
+      <S N="InstalledVersion">2.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetSecurity</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetSecurity\NetSecurity.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="58">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">NetSwitchTeam</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetSwitchTeam</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetSwitchTeam\NetSwitchTeam.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="59">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">NetTCPIP</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetTCPIP</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetTCPIP\NetTCPIP.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="60">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">NetworkConnectivityStatus</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetworkConnectivityStatus</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetworkConnectivityStatus\NetworkConnectivityStatus.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="61">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">NetworkSwitchManager</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetworkSwitchManager</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetworkSwitchManager\NetworkSwitchManager.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="62">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">NetworkTransition</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetworkTransition</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\NetworkTransition\NetworkTransition.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="63">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">PcsvDevice</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\PcsvDevice</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\PcsvDevice\PcsvDevice.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="64">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">PKI</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\PKI</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\PKI\PKI.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="65">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">PnpDevice</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\PnpDevice</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\PnpDevice\PnpDevice.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="66">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">PrintManagement</S>
+      <S N="InstalledVersion">1.1</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\PrintManagement</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\PrintManagement\PrintManagement.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="67">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">ProcessMitigations</S>
+      <S N="InstalledVersion">1.0.12</S>
+      <S N="LatestVersion">1.0.7</S>
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\ProcessMitigations</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\ProcessMitigations\ProcessMitigations.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+  <Obj RefId="68">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Provisioning</S>
+      <S N="InstalledVersion">3.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Provisioning</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Provisioning\Provisioning.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="69">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">ScheduledTasks</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\ScheduledTasks</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\ScheduledTasks\ScheduledTasks.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="70">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">SecureBoot</S>
+      <S N="InstalledVersion">2.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\SecureBoot</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\SecureBoot\SecureBoot.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="71">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">SmbShare</S>
+      <S N="InstalledVersion">2.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\SmbShare</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\SmbShare\SmbShare.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="72">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">SmbWitness</S>
+      <S N="InstalledVersion">2.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\SmbWitness</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\SmbWitness\SmbWitness.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="73">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">StartLayout</S>
+      <S N="InstalledVersion">1.0.0.1</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\StartLayout</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\StartLayout\StartLayout.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="74">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Storage</S>
+      <S N="InstalledVersion">2.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Storage</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Storage\Storage.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="75">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">TLS</S>
+      <S N="InstalledVersion">2.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\TLS</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\TLS\TLS.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="76">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">TroubleshootingPack</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\TroubleshootingPack</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\TroubleshootingPack\TroubleshootingPack.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="77">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">TrustedPlatformModule</S>
+      <S N="InstalledVersion">2.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\TrustedPlatformModule</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\TrustedPlatformModule\TrustedPlatformModule.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="78">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">UEV</S>
+      <S N="InstalledVersion">2.1.639.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\UEV</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\UEV\UEV.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="79">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">VpnClient</S>
+      <S N="InstalledVersion">2.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\VpnClient</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\VpnClient\VpnClient.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="80">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Wdac</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Wdac</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Wdac\Wdac.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="81">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Whea</S>
+      <S N="InstalledVersion">2.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Whea</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Whea\Whea.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="82">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">WindowsDeveloperLicense</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\WindowsDeveloperLicense</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\WindowsDeveloperLicense\WindowsDeveloperLicense.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="83">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">WindowsErrorReporting</S>
+      <S N="InstalledVersion">1.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\WindowsErrorReporting</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\WindowsErrorReporting\WindowsErrorReporting.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="84">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">WindowsSearch</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\WindowsSearch</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\WindowsSearch\WindowsSearch.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="85">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">WindowsUpdate</S>
+      <S N="InstalledVersion">1.0.0.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\WindowsUpdate</S>
+      <S N="ModulePath">C:\Windows\system32\WindowsPowerShell\v1.0\Modules\WindowsUpdate\WindowsUpdate.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="86">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Microsoft.Online.SharePoint.PowerShell</S>
+      <S N="InstalledVersion">16.0.24713.0</S>
+      <S N="LatestVersion">16.0.24713.12007</S>
+      <S N="ModuleBase">C:\Program Files\SharePoint Online Management Shell\Microsoft.Online.SharePoint.PowerShell</S>
+      <S N="ModulePath">C:\Program Files\SharePoint Online Management Shell\Microsoft.Online.SharePoint.PowerShell\Microsoft.Online.SharePoint.PowerShell.psd1</S>
+      <S N="Status">outdated</S>
+      <S N="Updated">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="87">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">Plaster</S>
+      <S N="InstalledVersion">1.1.3</S>
+      <S N="LatestVersion">1.1.4</S>
+      <S N="ModuleBase">C:\Users\aollivierre\.vscode\extensions\ms-vscode.powershell-2024.2.0\modules\Plaster\1.1.3</S>
+      <S N="ModulePath">C:\Users\aollivierre\.vscode\extensions\ms-vscode.powershell-2024.2.0\modules\Plaster\1.1.3\Plaster.psd1</S>
+      <S N="Status">outdated</S>
+      <S N="Updated">False</S>
+    </MS>
+  </Obj>
+  <Obj RefId="88">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">PowerShellEditorServices</S>
+      <S N="InstalledVersion">3.19.0</S>
+      <Nil N="LatestVersion" />
+      <S N="ModuleBase">C:\Users\aollivierre\.vscode\extensions\ms-vscode.powershell-2024.2.0\modules\PowerShellEditorServices</S>
+      <S N="ModulePath">C:\Users\aollivierre\.vscode\extensions\ms-vscode.powershell-2024.2.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1</S>
+      <S N="Status">not found in PS Gallery</S>
+      <S N="Updated">Not found and not installed</S>
+    </MS>
+  </Obj>
+  <Obj RefId="89">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="ModuleName">PSScriptAnalyzer</S>
+      <S N="InstalledVersion">1.22.0</S>
+      <S N="LatestVersion">1.22.0</S>
+      <S N="ModuleBase">C:\Users\aollivierre\.vscode\extensions\ms-vscode.powershell-2024.2.0\modules\PSScriptAnalyzer\1.22.0</S>
+      <S N="ModulePath">C:\Users\aollivierre\.vscode\extensions\ms-vscode.powershell-2024.2.0\modules\PSScriptAnalyzer\1.22.0\PSScriptAnalyzer.psd1</S>
+      <S N="Status">up-to-date</S>
+      <S N="Updated">True</S>
+    </MS>
+  </Obj>
+</Objs>

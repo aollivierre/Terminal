@@ -1,0 +1,467 @@
+[
+  {
+    "CommandLine": "C:\\Windows\\System32\\wsl.exe --update --web-download"
+  },
+  {
+    "CommandLine": "C:\\Windows\\System32\\wsl.exe --update --web-download:"
+  },
+  {
+    "CommandLine": "wsl --update"
+  },
+  {
+    "CommandLine": "docker pull mcr.microsoft.com/powershell:7.4-alpine-3.17"
+  },
+  {
+    "CommandLine": "docker run --rm -it -v \"C:/:/usr/src\" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh"
+  },
+  {
+    "CommandLine": "code $profile"
+  },
+  {
+    "CommandLine": "C:\\Code\\CB\\Terminal\\0.5-Install-Modules-Universal-v5.ps1"
+  },
+  {
+    "CommandLine": "C:\\Code\\CB\\Terminal\\0.6-Install-Modules-TerminalIcons-Z.ps1"
+  },
+  {
+    "CommandLine": "C:\\Code\\CB\\Terminal\\1.2-Install-OhMyPosh.ps1"
+  },
+  {
+    "CommandLine": "C:\\Code\\CB\\Terminal\\1.3-Add-OhMyPosh-PATH_v7.ps1"
+  },
+  {
+    "CommandLine": "C:\\Code\\CB\\Terminal\\1.4-Install-Nerdfont-with-OMP.ps1"
+  },
+  {
+    "CommandLine": "C:\\Code\\CB\\Terminal\\1.6-Install-Nerdfont-with-OMP.ps1"
+  },
+  {
+    "CommandLine": "C:\\Code\\CB\\Terminal\\5-Set-Profile.ps1"
+  },
+  {
+    "CommandLine": "C:\\Code\\CB\\Terminal\\6-Set-Profile.ps1"
+  },
+  {
+    "CommandLine": "docker run --rm -it -v \"C:/:/usr/src\" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File \"/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1\""
+  },
+  {
+    "CommandLine": "C:\\Code\\Modules\\EnhancedAO.Graph.SignInLogs\\2.0.0\\ConvertModuleBacktoSinglePs1.ps1"
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\CB\\Entra\\ICTC\\Entra\\Devices\\Beta\\get-allauditlogs copy 6.ps1\""
+  },
+  {
+    "CommandLine": "C:\\Code\\Modules\\EnhancedBoilerPlateAO\\2.0.0\\ConvertModuleBacktoSinglePs1.ps1"
+  },
+  {
+    "CommandLine": "C:\\Code\\CB\\Entra\\ICTC\\Entra\\Devices\\Beta\\test-Parallel.ps1"
+  },
+  {
+    "CommandLine": "C:\\Code\\CB\\Entra\\ICTC\\Entra\\Devices\\Beta\\combine-allmodules.ps1"
+  },
+  {
+    "CommandLine": "Check-DeviceStateInIntune"
+  },
+  {
+    "CommandLine": "# Split the PSModulePath variable into an array"
+  },
+  {
+    "CommandLine": "$modulePaths = $env:PSModulePath -split ';'"
+  },
+  {
+    "CommandLine": "# Create a custom object for each path and output it as a table"
+  },
+  {
+    "CommandLine": "$modulePaths | ForEach-Object {`"
+  },
+  {
+    "CommandLine": "    [PSCustomObject]@{`"
+  },
+  {
+    "CommandLine": "        ModulePath = $_`"
+  },
+  {
+    "CommandLine": "    }`"
+  },
+  {
+    "CommandLine": "} | Format-Table -AutoSize"
+  },
+  {
+    "CommandLine": "Load-SignInLogs"
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\CB\\Entra\\ICTC\\Entra\\Devices\\Beta\\get-allauditlogs copy 7.ps1\""
+  },
+  {
+    "CommandLine": "Ensure-LoggingFunctionExists"
+  },
+  {
+    "CommandLine": "Initialize-Results"
+  },
+  {
+    "CommandLine": "Handle-Error"
+  },
+  {
+    "CommandLine": "$inputData = 1..10"
+  },
+  {
+    "CommandLine": "$inputData | ForEach-Object -Parallel {`"
+  },
+  {
+    "CommandLine": "    # Now Get-CustomData is available because the module was imported in the profile`"
+  },
+  {
+    "CommandLine": "    Ensure-LoggingFunctionExists`"
+  },
+  {
+    "CommandLine": "} -ThrottleLimit 4"
+  },
+  {
+    "CommandLine": "\"C:\\Code\\CB\\Entra\\ICTC\\Entra\\Devices\\Beta\\get-allauditlogs copy 5-working-code-no-parallel.ps1\""
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\CB\\Entra\\ICTC\\Entra\\Devices\\Beta\\get-allauditlogs copy 5-working-code-no-parallel.ps1\""
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\CB\\Entra\\ICTC\\Entra\\Devices\\Beta\\get-allauditlogs copy 7-parallel-removed-boiler-plate.ps1\""
+  },
+  {
+    "CommandLine": "C:\\Code\\CB\\Entra\\ICTC\\Entra\\Devices\\Beta\\test-Parallel-v2.ps1"
+  },
+  {
+    "CommandLine": "scabbed tingly monkhood rotunda 56&"
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\Intune-Win32-Deployer\\Intune-Win32-Deployer.ps1\""
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\GraphAppwithCert\\Graph\\0-BuildEntraAppRegCertBasedwithGraph copy.ps1\""
+  },
+  {
+    "CommandLine": "Disconnect-Graph"
+  },
+  {
+    "CommandLine": "cls"
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\IntuneManagement\\Start-IntuneManagement.ps1\""
+  },
+  {
+    "CommandLine": "cd C:\\Code\\CB\\Entra\\ICTC\\Entra\\Devices\\Beta"
+  },
+  {
+    "CommandLine": "ls"
+  },
+  {
+    "CommandLine": "& '.\\1-Get-Content and ConvertFrom-Json.ps1'"
+  },
+  {
+    "CommandLine": "& '.\\2-System.IO.StreamReader and ConvertFrom-Json.ps1'"
+  },
+  {
+    "CommandLine": ".\\3-System.Text.Json.JsonDocument.ps1"
+  },
+  {
+    "CommandLine": ".\\4-System.Text.Json.JsonDocument.ps1"
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\CB\\Entra\\ICTC\\Entra\\Devices\\Beta\\5-compare-json-file-read.ps1\""
+  },
+  {
+    "CommandLine": "podman run --rm -it -v \"C:/:/usr/src\" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File \"/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1\""
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\CB\\Entra\\ICTC\\Entra\\Devices\\Beta\\test-newtonsoft-linq.ps1\""
+  },
+  {
+    "CommandLine": "ps | Select name, id | convertto-json | set-content test.json"
+  },
+  {
+    "CommandLine": "$reader = [System.IO.StreamReader]::new(\"$pwd\\test.json\")"
+  },
+  {
+    "CommandLine": "$jarray = [Newtonsoft.Json.Linq.JArray]::Load([NewtonSoft.Json.JsonTextReader]$reader)"
+  },
+  {
+    "CommandLine": "$jarray.SelectToken('$').SelectTokens('$..[?(@.Name == ''pwsh'')]')"
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\CB\\Entra\\ICTC\\Entra\\Devices\\Beta\\Logging.ps1\""
+  },
+  {
+    "CommandLine": "certmgr.msc"
+  },
+  {
+    "CommandLine": "certlm.msc"
+  },
+  {
+    "CommandLine": "# Retrieve all service principals"
+  },
+  {
+    "CommandLine": "$servicePrincipals = Get-MgServicePrincipal"
+  },
+  {
+    "CommandLine": "# Display the service principals"
+  },
+  {
+    "CommandLine": "$servicePrincipals | Format-Table DisplayName, AppId, Id"
+  },
+  {
+    "CommandLine": "get-mguser"
+  },
+  {
+    "CommandLine": "$servicePrincipals | Format-Table DisplayName, AppId, Id | Sort-Object -Property Displayname"
+  },
+  {
+    "CommandLine": "$servicePrincipals | Format-Table DisplayName, AppId, Id | Sort-Object -Property Displaynam"
+  },
+  {
+    "CommandLine": "$servicePrincipals | Sort-Object -Property Displayname | Format-Table DisplayName, AppId, Id"
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\GraphAppwithCert\\Graph\\test-ServicePrincipal.ps1\""
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\Modules\\EnhancedGraphAO\\3.0.0\\Public\\Grant-AdminConsentToApiPermissions.ps1\""
+  },
+  {
+    "CommandLine": "Get-MgServicePrincipal -Filter \"displayName eq 'Microsoft Graph'\" -Property Oauth2PermissionScopes | Select -ExpandProperty Oauth2PermissionScopes | fl"
+  },
+  {
+    "CommandLine": "Get-MgOauth2PermissionGrant -Filter \"clientId eq '08216f27-1d3d-4a9f-9406-80f957e7fca6' and consentType eq 'AllPrincipals'\""
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\GraphAppwithCert\\Graph\\test-grantadminconsent.ps1\""
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\Intune-Win32-Deployer\\test-granadminconsent2.ps1\""
+  },
+  {
+    "CommandLine": "Get-MgServicePrincipal -Filter \"AppId eq 'f2108844-50d3-45cb-9c7c-6d1ac5b92912'\""
+  },
+  {
+    "CommandLine": "Get-MgServicePrincipal"
+  },
+  {
+    "CommandLine": "Get-MgServicePrincipal | Sort-Object -Property displayname"
+  },
+  {
+    "CommandLine": "Get-MgServicePrincipal -Filter \"AppId eq '6065ddef-dc78-4a96-b430-27d50c4722d3'\""
+  },
+  {
+    "CommandLine": "Get-MgServicePrincipal -Filter \"Id eq '6065ddef-dc78-4a96-b430-27d50c4722d3'\""
+  },
+  {
+    "CommandLine": "Get-MgServicePrincipalOauth2PermissionGrant -ServicePrincipalId $servicePrincipalId"
+  },
+  {
+    "CommandLine": "Get-MgServicePrincipalOauth2PermissionGrant -ServicePrincipalId \"37ebfe0e-2b5b-45f2-bfb1-9118be1dfc3d\""
+  },
+  {
+    "CommandLine": "sysdm.cpl"
+  },
+  {
+    "CommandLine": "az"
+  },
+  {
+    "CommandLine": "az login"
+  },
+  {
+    "CommandLine": "exit"
+  },
+  {
+    "CommandLine": "az account clear az config set core.enable_broker_on_windows=false"
+  },
+  {
+    "CommandLine": "az account clear az config"
+  },
+  {
+    "CommandLine": "az login --allow-no-subscriptions"
+  },
+  {
+    "CommandLine": "\"C:\\Code\\GraphAppwithCert\\Graph\\0-BuildEntraAppRegCertBasedwithGraph copy 2.ps1\""
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\GraphAppwithCert\\Graph\\0-BuildEntraAppRegCertBasedwithGraph copy 2.ps1\""
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\CB\\DB\\PSQL\\CaRMS\\helper\\1-Add-PATH_v8-AS_SYSTEM.ps1\""
+  },
+  {
+    "CommandLine": "psql"
+  },
+  {
+    "CommandLine": "psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\\Code\\CB\\DB\\PSQL\\CaRMS\\postgres\\GrantPermissions-az-dw-psql01-postgres-v10-Harish-MSFT-Az-Support.sql"
+  },
+  {
+    "CommandLine": "\\du"
+  },
+  {
+    "CommandLine": "psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw"
+  },
+  {
+    "CommandLine": "New-SelfSignedCertificate"
+  },
+  {
+    "CommandLine": "Set-TimeZone 'central standard time'"
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\Intune-Win32-Deployer\\Win32Apps-Gallery\\PR4B-BitLockerRecoveryEscrow-v8\\check.ps1\""
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\Intune-Win32-Deployer\\Win32Apps-Gallery\\PR4B-BitLockerRecoveryEscrow-v8\\install.ps1\""
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\Intune-Win32-Deployer\\Win32Apps-Gallery\\PR4B-BitLockerRecoveryEscrow-v8\\uninstall.ps1\""
+  },
+  {
+    "CommandLine": "taskschd.msc"
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\Intune-Win32-Deployer\\Win32Apps-Gallery\\PR4B-BitLockerRecoveryEscrow-v8\\Remediation.ps1\""
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\Intune-Win32-Deployer\\Win32Apps-Gallery\\PR4B-BitLockerRecoveryEscrow-v9\\uninstall.ps1\""
+  },
+  {
+    "CommandLine": "git clone --branch v2 --single-branch https://github.com/aollivierre/Modules.git"
+  },
+  {
+    "CommandLine": "Stop-Transcript"
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\Intune-Win32-Deployer\\Win32Apps-Gallery\\PR4B-BitLockerRecoveryEscrow-v10\\uninstall.ps1\""
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\Intune-Win32-Deployer\\Win32Apps-Gallery\\PR4B-BitLockerRecoveryEscrow-v10\\install.ps1\""
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\Intune-Win32-Deployer\\Win32Apps-Gallery\\PR4B-BitLockerRecoveryEscrow-v10\\check.ps1\""
+  },
+  {
+    "CommandLine": "keepassxc-cli"
+  },
+  {
+    "CommandLine": "docker info"
+  },
+  {
+    "CommandLine": "wsl -l -v"
+  },
+  {
+    "CommandLine": "# Stop Docker Desktop"
+  },
+  {
+    "CommandLine": "Stop-Process -Name \"Docker Desktop\" -Force"
+  },
+  {
+    "CommandLine": "# Shutdown WSL"
+  },
+  {
+    "CommandLine": "wsl --shutdown"
+  },
+  {
+    "CommandLine": "# Start Docker Desktop"
+  },
+  {
+    "CommandLine": "Start-Process -FilePath \"C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe\""
+  },
+  {
+    "CommandLine": "# Start WSL (docker-desktop distribution)"
+  },
+  {
+    "CommandLine": "wsl -d docker-desktop"
+  },
+  {
+    "CommandLine": "docker images -f \"dangling=true\""
+  },
+  {
+    "CommandLine": "docker image prune"
+  },
+  {
+    "CommandLine": "docker volume ls -f \"dangling=true\""
+  },
+  {
+    "CommandLine": "docker volume prune"
+  },
+  {
+    "CommandLine": "& 'C:\\Program Files\\Docker\\Docker\\DockerCli.exe' -SwitchLinuxEngine"
+  },
+  {
+    "CommandLine": "docker ps"
+  },
+  {
+    "CommandLine": "ls .devcontainer/Microsoft.VSCode_profile.ps1"
+  },
+  {
+    "CommandLine": "$psversiontable"
+  },
+  {
+    "CommandLine": "code C:\\Windows\\system32\\drivers\\etc\\hosts"
+  },
+  {
+    "CommandLine": "podman"
+  },
+  {
+    "CommandLine": "podman --version"
+  },
+  {
+    "CommandLine": "export DOCKER_HOST=unix:///var/run/podman/podman.sock"
+  },
+  {
+    "CommandLine": "echo %DOCKER_HOST%"
+  },
+  {
+    "CommandLine": "echo $env:DOCKER_HOST"
+  },
+  {
+    "CommandLine": "echo $env:PATH"
+  },
+  {
+    "CommandLine": "[System.Environment]::SetEnvironmentVariable('DOCKER_HOST', 'unix:///var/run/podman/podman.sock', [System.EnvironmentVariableTarget]::Machine)"
+  },
+  {
+    "CommandLine": "$PSVersionTable"
+  },
+  {
+    "CommandLine": "Get-Service"
+  },
+  {
+    "CommandLine": "git status"
+  },
+  {
+    "CommandLine": "git add C:\\code\\Intune-Win32-Deployer\\Win32Apps"
+  },
+  {
+    "CommandLine": "cat .gitignore"
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\CB\\Terminal\\7-Export-CommandHistory.ps1\""
+  },
+  {
+    "CommandLine": "Get-History"
+  },
+  {
+    "CommandLine": "(Get-PSReadlineOption).HistorySavePath"
+  },
+  {
+    "CommandLine": "Get-FileHash"
+  },
+  {
+    "CommandLine": "\"C:\\Code\\CB\\Terminal\\7-Export-CommandHistory.ps1\""
+  },
+  {
+    "CommandLine": "$hash1 = (Get-FileHash -Path \"C:\\Users\\Administrator\\AppData\\Roaming\\Microsoft\\Windows\\PowerShell\\PSReadLine\\ConsoleHost_history.txt\" -Algorithm MD5).Hash; $hash2 = (Get-FileHash -Path \"C:\\code\\configs\\PowerShell_history.txt\" -Algorithm MD5).Hash; if ($hash1 -eq $hash2) { \"Files are identical\" } else { \"Files are not identical\" }"
+  },
+  {
+    "CommandLine": "Compare-Object (Get-Content -Path \"C:\\Users\\Administrator\\AppData\\Roaming\\Microsoft\\Windows\\PowerShell\\PSReadLine\\ConsoleHost_history.txt\") (Get-Content -Path \"C:\\code\\configs\\PowerShell_history.txt\") -SyncWindow 0"
+  },
+  {
+    "CommandLine": "Get-Content -Path \"C:\\Users\\Administrator\\AppData\\Roaming\\Microsoft\\Windows\\PowerShell\\PSReadLine\\ConsoleHost_history.txt\" -Encoding Byte | Measure-Object -Sum"
+  },
+  {
+    "CommandLine": "Get-Content -Path \"C:\\code\\configs\\PowerShell_history.txt\" -Encoding Byte | Measure-Object -Sum"
+  },
+  {
+    "CommandLine": "& \"C:\\Code\\CB\\Terminal\\7-ExportandImport-CommandHistory.ps1\""
+  }
+]
