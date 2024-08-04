@@ -1,0 +1,12 @@
+appwiz.cpl
+iex (irm bit.ly/4c3XH76)
+Set-TimeZone 'eastern time zone'
+Set-TimeZone 'eastern standard time'
+& C:\Users\Admin-Abdullah\AppData\Local\Programs\Python\Python312\python.exe "c:/code/Ivanti/Scrape_Ivanti_time_report copy 15-needtofixdatetime copy 7.py"
+pip install selenium
+pip show selenium
+& C:\Users\Admin-Abdullah\AppData\Local\Programs\Python\Python312\python.exe "c:/code/Ivanti/Scrape_Ivanti_time_report copy 15-needtofixdatetime copy 7.py"
+pip install webdriver_manager
+python.exe -m pip install --upgrade pip
+& C:\Users\Admin-Abdullah\AppData\Local\Programs\Python\Python312\python.exe "c:/code/Ivanti/Scrape_Ivanti_time_report copy 15-needtofixdatetime copy 7.py"
+& "C:\code\Terminal\7-ExportandImport-CommandHistory.ps1"
