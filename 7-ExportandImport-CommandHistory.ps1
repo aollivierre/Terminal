@@ -86,7 +86,7 @@ function Prompt-ForPath {
 
 # Export logic
 function Export-History {
-    $defaultPath = "C:\Code\CB\Terminal\Configs\History"
+    $defaultPath = "c:\code\Terminal\Configs\History"
     $exportBasePath = Prompt-ForPath -DefaultPath $defaultPath
     $historyFilePath = Get-HistoryFilePath
     if ($null -eq $historyFilePath) {
@@ -109,9 +109,24 @@ function Export-History {
     }
 }
 
+
+# Function to copy the original history file
+function Copy-HistoryFile {
+    param (
+        [string]$SourcePath,
+        [string]$DestinationPath
+    )
+    try {
+        Copy-Item -Path $SourcePath -Destination $DestinationPath
+        Write-Host "History file copied to $DestinationPath"
+    } catch {
+        Write-Error "Failed to copy history file from $SourcePath to $DestinationPath. Error: $_"
+    }
+}
+
 # Import logic
 function Import-History {
-    $defaultPath = "C:\Code\CB\Terminal\Configs\History"
+    $defaultPath = "c:\code\Terminal\Configs\History"
     $importPath = Prompt-ForPath -DefaultPath $defaultPath
 
     Import-HistoryFromTextFiles -ImportPath $importPath

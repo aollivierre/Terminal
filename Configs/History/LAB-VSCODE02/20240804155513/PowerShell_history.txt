@@ -1,0 +1,2758 @@
+& "C:\code\CB\Docker\PowerShell\0-Check-HyperVFeatures.ps1"
+& "C:\code\CB\Terminal\0.5-Install-Modules-Universal-v5.ps1"
+& "C:\code\CB\Terminal\0.6-Install-Modules-TerminalIcons-Z.ps1"
+& "C:\code\CB\Terminal\1.2-Install-OhMyPosh.ps1"
+& "C:\code\CB\Terminal\1.3-Add-OhMyPosh-PATH_v7.ps1"
+& "C:\code\CB\Terminal\1.4-Install-Nerdfont-with-OMP.ps1"
+& "C:\code\CB\Terminal\6-Set-Profile.ps1"
+& "C:\code\CB\Terminal\0.6-Install-Modules-TerminalIcons-Z.ps1"& "C:\code\CB\Terminal\7-ExportandImport-CommandHistory.ps1"
+sysdm.cpl
+hostname
+ipconfig
+whoami
+sysdm.cpl
+appwiz.cpl
+winget
+winget search 7zip.7zip
+dsregcmd /status
+Disconnect-Graph
+Disconnect-MgGraph
+hosm
+hostname
+ipconfig
+hostname
+dsregcmd /status
+cd C:\Code\CB\Entra\Test-Export-Data\exports
+ls
+cd C:\Code\CB\Entra\Test-Export-Data\exports
+ls
+# Install the powershell-yaml module if not already installed
+# You might need to run this with administrative privileges
+# Install-Module powershell-yaml -Scope CurrentUser
+# Import the powershell-yaml module
+Import-Module powershell-yaml
+# Get the list of processes
+$processes = Get-Process
+# Convert the processes list to YAML format
+$yamlContent = ConvertTo-Yaml -Data $processes
+# Save the YAML content to a file
+$yamlContent | Out-File -FilePath "processes.yaml"
+cd C:\Code\CB\Entra\Test-Export-Data\exports>
+cd C:\Code\CB\Entra\Test-Export-Data\exports
+# Install the powershell-yaml module if not already installed
+# You might need to run this with administrative privileges
+# Install-Module powershell-yaml -Scope CurrentUser
+# Import the powershell-yaml module
+Import-Module powershell-yaml
+# Get the list of processes
+$processes = Get-Process
+# Convert the processes list to YAML format
+$yamlContent = ConvertTo-Yaml -Data $processes
+# Save the YAML content to a file
+$yamlContent | Out-File -FilePath "processes.yaml"
+cls
+Install-Module powershell-yaml -Scope AllUsers -Force
+Import-Module powershell-yaml
+# Get the list of processes
+$processes = Get-Process
+# Convert the processes list to YAML format
+$yamlContent = ConvertTo-Yaml -Data $processes
+# Save the YAML content to a file
+$yamlContent | Out-File -FilePath "processes.yaml"
+Set-ExecutionPolicy Bypass
+Import-Module powershell-yaml
+# Get the list of processes
+$processes = Get-Process
+# Convert the processes list to YAML format
+$yamlContent = ConvertTo-Yaml -Data $processes
+# Save the YAML content to a file
+$yamlContent | Out-File -FilePath "processes.yaml"
+cls
+# Install the powershell-yaml module if not already installed
+# You might need to run this with administrative privileges
+# Install-Module powershell-yaml -Scope CurrentUser
+# Import the powershell-yaml module
+Import-Module powershell-yaml
+# Get the list of processes
+$processes = Get-Process
+# Convert the processes list to YAML format
+$yamlContent = ConvertTo-Yaml -Data $processes
+# Save the YAML content to a file
+$yamlContent | Out-File -FilePath "processes.yaml"
+cls
+# Import the powershell-yaml module
+Import-Module powershell-yaml
+# Get the list of processes and select a subset of properties that are safe to serialize
+$processes = Get-Process | Select-Object Id, ProcessName, CPU, StartTime
+# Convert the filtered processes list to YAML format
+$yamlContent = ConvertTo-Yaml -Data $processes
+# Save the YAML content to a file
+$yamlContent | Out-File -FilePath "processes.yaml"
+winget
+winget install --id Microsoft.Powershell --source winget
+code $profile
+winget install --id Git.Git --source winget
+hostname
+whoami
+cd c:\code\cb
+ls
+cd .\Entra\
+cd ..
+cd .\DotNet\
+ls
+cd .\Graph\
+ls
+cd .\Httpclient\
+ls
+cd c:\code\cb\
+cd C:\Code\CB\DotNet\Graph\Httpclient
+ls
+cd C:\Code\CB\DotNet\Graph\Httpclient
+ls
+cd C:\Code\CB\DotNet\Graph\Httpclient
+ls
+& '.\1-DotNet-GetUsers copy.ps1'
+cd C:\Code\CB\DotNet\Graph\Httpclient
+ls
+cd cd c:\windows\System32\drivers\etc\
+cd c:\windows\System32\drivers\etc\
+ls
+cls
+code .\hosts
+cd C:\Code\Terminal
+ls
+.\0.1-Create-SourceCode-NetShare-v2.ps1
+cls
+cd C:\Code\Terminal
+ls
+.\0.1-Create-SourceCode-NetShare-v2.ps1
+net.exe share
+Get-PSDrive
+Get-PSDrive -PSProvider 'FileSystem' | Where-Object {`
+        $_.DisplayRoot -like '\\*'  # Filter to only network drives`
+    }
+Get-PSDrive -PSProvider 'FileSystem'
+Get-PSDrive -PSProvider 'FileSystem' | select *
+Get-PSDrive -PSProvider 'FileSystem'
+cd C:\Code\Terminal
+ls
+.\0.1-Create-SourceCode-NetShare-v2.ps1
+cls
+.\0.1-Create-SourceCode-NetShare-v2.ps1
+cls
+cd C:\Code\Terminal
+.\0.1-Create-SourceCode-NetShare-v2.ps1
+cls
+Get-PSDrive -Name $DriveLetter.TrimEnd(':') | Format-List *
+Get-PSDrive -PSProvider 'FileSystem'
+Get-PSDrive -PSProvider 'FileSystem' | select *
+cls
+Get-PSDrive -PSProvider 'FileSystem'
+cd C:\Code\Terminal
+ls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cd C:\Code\Terminal
+ls
+.\0.1-Create-SourceCode-NetShare-v2.ps1
+cd 
+cd C:\Code\Terminal
+ls
+cls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cd C:\Code\Terminal
+ls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cd C:\Code\Terminal
+ls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cd C:\Code\Terminal
+ls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cd C:\Code\Terminal
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cd C:\Code\Terminal
+.\0.1-Create-SourceCode-NetShare-v3.ps1
+cd c:\windows\System32\drivers\etc\
+code .\hosts
+cd c:\windows\System32\drivers\etc\
+Get-PSDrive -PSProvider 'FileSystem' | select *
+cd c:\code\Terminal
+ls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+cd c:\code\Terminal
+ls
+cls
+.\0.1-Cleanup-Network-Drives.ps1.ps1
+ls
+.\0.2-Create-SourceCode-NetShare-v3.ps1
+whoami
+dsregcmd /status
+cls
+dsregcmd /status
+cd C:\Code\Terminal
+ls
+.\0.2.1-Check-ModuleVersion_AllModules.ps1
+cd C:\Code\Terminal
+ls
+.\0.2.1-Check-ModuleVersion_AllModules.ps1
+cls
+cd C:\Code\Terminal
+.\0.3-Check-ModuleVersion_ByName.ps1
+.\0.4-Install-Modules-CriticalModules.ps1
+cd c:\Code\Terminal
+ls
+cls
+ls
+.\0.4-Install-Modules-CriticalModules.ps1
+cd c:\Code\Terminal
+ls
+.\0.4-Install-Modules-CriticalModules.ps1
+.\0.5-Install-Modules-Universal-v5.ps1
+cd c:\Code\Terminal
+ls
+.\0.5-Install-Modules-Universal-v5.ps1
+cd c:\Code\Terminal
+ls
+.\0.5-Install-Modules-Universal-v5.ps1
+ls
+cd c:\Code\Terminal
+ls
+cls
+cd c:\Code\Terminal
+ls
+.\0.5-Install-Modules-Universal-v5.ps1
+cd c:\Code\Terminal
+ls
+.\0.5-Install-Modules-Universal-v5.ps1
+cd c:\Code\Terminal
+ls
+cd c:\Code\Terminal
+.\0.4-Install-Modules-CriticalModules.ps1
+cd c:\Code\Terminal
+ls
+.\0.4-Install-Modules-CriticalModules.ps1
+cd c:\Code\Terminal
+ls
+.\0.4-Install-Modules-CriticalModules.ps1
+winget
+cls
+winget
+cls
+winget
+WinGet
+ls
+cls
+winget
+winget search --id "JanDeDobbeleer.OhMyPosh"
+winget search --id "MyPosh"
+winget search --id "adobe"
+winget search --id "MyPosh"
+winget list
+appwiz.cpl
+Install-Module
+Get-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V
+docker
+docker --version
+ping 192.168.100.167
+appwiz.cpl
+ipconfig
+cd C:\Code\CB\Teams\
+.\Extract-TeamsPrivateChat.ps1
+ls
+& '.\Extract-TeamsPrivateChat copy.ps1'
+cd C:\Code\CB\Teams\
+& '.\Extract-TeamsPrivateChat copy.ps1'
+cd C:\Code\CB\Teams\Exports\Chats
+C:\Code\CB\Teams\0-Extract-TeamsPrivateChatIDs.ps1
+ls
+C:\Code\CB\Teams\0-Extract-TeamsPrivateChatIDs.ps1
+winver
+& "C:\Code\CB\Docker\PowerShell\0-Check-HyperVFeatures.ps1"
+virtmgmt.msc
+docker
+docker --version
+docker pull mcr.microsoft.com/powershell
+docker run --rm -it mcr.microsoft.com/powershell
+docker ps
+docker image ls
+get-process | Out-GridView
+iwr
+gci
+ls
+irm
+docker pull mcr.microsoft.com/powershell:lts-7.2-nanoserver-ltsc2022
+hostname
+docker ps
+docker image ls
+docker run --rm -it mcr.microsoft.com/powershell:lts-7.2-nanoserver-ltsc2022
+docker ps
+docker image ls
+ls
+gci
+docker ps
+docker image ls
+docker run --rm -it mcr.microsoft.com/powershell:lts-7.2-nanoserver-ltsc2022
+docker pull mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022
+docker run --rm -it mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022
+docker ps
+docker run --rm -it mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022
+hostname
+docker pull mcr.microsoft.com/windows/server
+docker pull mcr.microsoft.com/windows/server:ltsc2022
+docker pull mcr.microsoft.com/windows/nanoserver:ltsc2022
+docker image ls
+docker run --rm -it mcr.microsoft.com/windows/nanoserver:ltsc2022
+docker image ls
+cd C:\Code\CB\Docker\PowerShell\2-Dockerfile
+cd C:\Code\CB\Docker\PowerShell
+ls
+docker build -t nanoserver-powershell742
+docker image ls
+ls
+docker build -t nanoserver-powershell742
+docker build -t nanoserver-powershell742 .
+docker build -t nanoserver-powershell .
+hostname
+docker build -t nanoserver-powershell .
+ls
+docker build -t nanoserver-powershell742 .
+cd C:\Code\CB\Docker\PowerShell
+ls
+docker build -t nanoserver-powershell .
+cd C:\Code\CB\Docker\PowerShell
+docker build -t nanoserver-powershell742 .
+cd C:\Code\CB\Docker\PowerShell
+ls
+docker build -t nanoserver-powershell742 .
+cd C:\Code\CB\Docker\PowerShell
+ls
+docker build -t nanoserver-powershell742 .
+cd C:\Code\CB\Docker\PowerShell
+docker build -t nanoserver-powershell742 .
+cd C:\Code\CB\Docker\PowerShell
+docker build -t nanoserver-powershell742 .
+cd C:\Code\CB\Docker\PowerShell
+docker build -t nanoserver-powershell742 .
+docker image ls
+docker run --rm -it nanoserver-powershell742 pwsh
+docker ps
+docker image ls
+docker run --rm -it mcr.microsoft.com/powershell:lts-7.2-nanoserver-ltsc2022
+hostname
+docker run -it nanoserver-powershell742 pwsh -Command "systeminfo"
+docker run --rm -it nanoserver-powershell742
+docker run --rm -it mcr.microsoft.com/powershell:lts-7.2-nanoserver-ltsc2022
+docker pull mcr.microsoft.com/powershell:7.4-alpine-3.17
+psql
+docker pull mcr.microsoft.com/powershell:7.4-alpine-3.17
+docker run --rm -it mcr.microsoft.com/powershell:7.4-alpine-3.17
+docker ps
+docker image ls
+& "C:\Code\CB\DB\PSQL\CaRMS\helper\1-Add-PATH_v7.ps1"
+& "C:\Code\CB\DB\PSQL\CaRMS\helper\1-Add-PATH_v8-AS_SYSTEM.ps1"
+psql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v6-Harish-MSFT-Az-Support.sql
+cls
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v6-Harish-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v7-Harish-MSFT-Az-Support-Verifysql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v6-Harish-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v7-Harish-MSFT-Az-Support-Verifysql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v6-Harish-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v7-Harish-MSFT-Az-Support-Verifysql
+docker image ls
+& "C:\Code\CB\DotNet\Graph\Httpclient\2-List-DeletedUsers-MG_Graph_API-v2.ps1"
+& "C:\Code\CB\DotNet\Graph\Httpclient\1-Compare-ConditionalAccess-v1-and-Beta-v2.ps1"
+& "C:\Code\CB\DotNet\Graph\Httpclient\2-List-DeletedUsers-MG_Graph_API-v2.ps1"
+docker run --rm -it mcr.microsoft.com/powershell:7.4-alpine-3.17
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/test.ps1"
+wsl
+wsl ?
+wsl -?
+get-vm
+wsl -l -v
+& "C:\Code\CB\Docker\PowerShell\3-Check-WSL.ps1"
+wsl -?
+docker pull mcr.microsoft.com/powershell:7.4-alpine-3.17
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/test.ps1"
+& "C:\Code\CB\Docker\PowerShell\3-Check-WSL.ps1"
+docker run --rm -it -v "C:/Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/test.ps1"
+exit
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/test.ps1"
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/2-List-DeletedUsers-MG_Graph_API-v2.ps1"
+hostname
+cls
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/2-List-DeletedUsers-MG_Graph_API-v2.ps1"
+cls
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/2-List-DeletedUsers-MG_Graph_API-v2.ps1"
+cls
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/2-List-DeletedUsers-MG_Graph_API-v2-PS7-Docker.ps1"
+cls
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/2-List-DeletedUsers-MG_Graph_API-v2-PS7-Docker.ps1"
+cls
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/2-List-DeletedUsers-MG_Graph_API-v2-PS7-Docker.ps1"
+& "C:\Code\CB\Docker\PowerShell\3-Check-WSL.ps1"
+docker run --rm -it -v "C:/Code/CB/DotNet/Graph/Httpclient:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/2-List-DeletedUsers-MG_Graph_API-v2-PS7-Docker.ps1"
+cls
+docker run --rm -it -v "C:\Code\CB\Entra\ARH:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "C:\Code\CB\Entra\ARH\Get-EntraConnectSyncErrorsfromEntra copy.ps1"
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/stc/"
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Entra/ARH/Get-EntraConnectSyncErrorsfromEntra copy.ps1"
+hostname
+cls
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code\CB\Docker\PowerShell:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+ls
+cls
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v8-Harish-MSFT-Az-Support.sql
+cls
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v8-Harish-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v7-Harish-MSFT-Az-Support-Verifysql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v7-Harish-MSFT-Az-Support-Verifysql.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v7-Harish-MSFT-Az-Support-Verify.sql
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Ondrej-Sebela-doitpshway.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Ondrej-Sebela-doitpshway copy.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Ondrej-Sebela-doitpshway copy 2.ps1"
+# Find permissions related to auditLogs/signIns
+Find-MgGraphPermission -SearchString "auditLogs/signIns"
+Find-MgGraphPermission application
+Find-MgGraphPermission audit
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Find-MgGraphPermission -SearchString "AuditLog.Read.All" | Format-List
+Find-MgGraphPermission -SearchString "auditLogs"
+# Find permissions related to AuditLog.Read.All
+Find-MgGraphPermission -SearchString "AuditLog.Read.All"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Find-MgGraphPermission policy
+Find-MgGraphPermission conditionalAccess
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Set-ExecutionPolicy Bypass
+cls
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+certlm.msc
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+& "C:\Code\CB\Cert\Export-AllCerts copy 15.ps1"
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgApplication
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgApplication -Filter "DisplayName eq 'graphapp'"
+Get-MgApplication -Filter "DisplayName eq '001-GetAllSignInLogs-Prep-for-Conditional-Access-Require-Device-Marked-Compliant'"
+# Define the app name
+$AppName = "graphapp"
+# Retrieve the application object
+$app = Get-MgApplication -Filter "displayName eq '$AppName'"
+# Check if the application object is not null
+if ($app -ne $null) {`
+    Write-Output "The application '$AppName' exists."`
+} else {`
+    Write-Output "The application '$AppName' does not exist."`
+}
+# Define the app name
+$AppName = "graphapp"
+# Retrieve the application object
+$app = Get-MgApplication -Filter "displayName eq '$AppName'"
+# Check if the application object is not null
+if ($app -ne $null) {`
+    Write-Output "The application '$AppName' exists."`
+} else {`
+    Write-Output "The application '$AppName' does not exist."`
+}
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve the application object`
+    $app = Get-MgApplication -Filter "displayName eq '$AppName'"`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($null -ne $app -and ($app | Measure-Object).Count -gt 0) {`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage
+$appName = "graphapp"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+# Debug logging directly after retrieval
+Write-Output "Retrieved Application: $($app | Format-List)"
+$app = Get-MgApplication -Filter "displayName eq '$AppName'"
+Write-Output "Retrieved Application: $($app | Format-List)"
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve the application object`
+    $app = Get-MgApplication -Filter "displayName eq '$AppName'"`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+        return`
+`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage
+$appName = "graphapp"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+Write-Output "Retrieved Application Details: $($app | Format-List)"
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve the application object`
+    $app = Get-MgApplication -Filter "displayName eq '$AppName'"`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+                return $true`
+    }`
+    return $false`
+}
+# Example usage
+$appName = "graphapp"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve the application object`
+    $app = Get-MgApplication -Filter "displayName eq '$AppName'"`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+                return $true`
+    }`
+    return $false`
+}
+# Example usage
+$appName = "graphapp"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+Get-MgApplication
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve all application objects`
+    $allApps = Get-MgApplication`
+`
+    # Filter the applications to find the one with the specified display name`
+    $app = $allApps | Where-Object { $_.DisplayName -eq $AppName }`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage
+$appName = "graphapp"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve all application objects`
+    $allApps = Get-MgApplication`
+`
+    # Filter the applications to find the one with the specified display name`
+    $app = $allApps | Where-Object { $_.DisplayName -eq $AppName }`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage
+$appName = "graphapp"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve all application objects`
+    $allApps = Get-MgApplication`
+`
+    # Filter the applications to find the one with the specified display name`
+    $app = $allApps | Where-Object { $_.DisplayName -eq $AppName }`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage with a random app name
+$appName = "randomAppNameThatDoesNotExist"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve all application objects`
+    $allApps = Get-MgApplication`
+`
+    # Debug output`
+    Write-Output "Total applications retrieved: $($allApps.Count)"`
+`
+    # Filter the applications to find the one with the specified display name`
+    $app = $allApps | Where-Object { $_.DisplayName -eq $AppName }`
+`
+    # Debug output`
+    Write-Output "Filtered applications count: $($app.Count)"`
+    Write-Output "Filtered applications details: $($app | Format-List)"`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage with a random app name
+$appName = "randomAppNameThatDoesNotExist"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve all application objects`
+    $allApps = Get-MgApplication`
+`
+    # Debug output`
+    Write-Output "Total applications retrieved: $($allApps.Count)"`
+`
+    # Filter the applications to find the one with the specified display name`
+    $app = $allApps | Where-Object { $_.DisplayName -eq $AppName }`
+`
+    # Debug output`
+    Write-Output "Filtered applications count: $($app.Count)"`
+    Write-Output "Filtered applications details: $($app | Format-List)"`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app -ne $null -and ($app | Measure-Object).Count -gt 0) {`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage with a random app name
+$appName = "randomAppNameThatDoesNotExist"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+function Validate-AppCreation {`
+    param (`
+        [string]$AppName`
+    )`
+`
+    # Connect to Graph interactively`
+    Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+`
+    # Retrieve all application objects`
+    $allApps = Get-MgApplication`
+`
+    # Debug output`
+    Write-Output "Total applications retrieved: $($allApps.Count)"`
+`
+    # Filter the applications to find the one with the specified display name`
+    $app = $allApps | Where-Object { $_.DisplayName -eq $AppName }`
+`
+    # Debug output`
+    Write-Output "Filtered applications count: $($app.Count)"`
+    Write-Output "Filtered applications details: $($app | Format-List)"`
+`
+    # Log the parameters and the retrieved application object`
+    $params = @{`
+        AppName = $AppName`
+        AppCount = ($app | Measure-Object).Count`
+        AppDetails = $app`
+    }`
+    Log-Params -Params $params`
+`
+    # Check if the application object is not null and has items`
+    if ($app.Count -gt 0) {`
+        return $true`
+    }`
+    return $false`
+}
+# Example usage with a random app name
+$appName = "randomAppNameThatDoesNotExist"
+# Validate that the app does not already exist
+if (Validate-AppCreation -AppName $appName) {`
+    Write-EnhancedLog -Message "App already exists" -Level "ERROR" -ForegroundColor ([ConsoleColor]::Red)`
+    throw "App already exists"`
+} else {`
+    Write-EnhancedLog -Message "App does not exist" -Level "INFO" -ForegroundColor ([ConsoleColor]::Green)`
+}
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Get-MgApplication
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgApplication
+    # Retrieve all application objects
+    $allApps = Get-MgApplication
+    # List all applications
+    $allApps | Format-Table Id, DisplayName, AppId, SignInAudience, PublisherDomain -AutoSize
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgApplication
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgAdminPeople
+Get-MgApplication
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgApplication
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Disconnect-MgGraph
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgApplication
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+Get-MgApplication
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+cls
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+certlm.msc
+certmgr.msc
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+# Import the module
+Import-Module Microsoft.Graph.Applications
+# Connect to Microsoft Graph
+Connect-MgGraph -Scopes "Application.ReadWrite.All"
+# Get and remove applications starting with 'GraphApp-Test001'
+Get-MgApplication -Filter "startswith(displayName, 'GraphApp-Test001')" | ForEach-Object {`
+    Remove-MgApplication -ApplicationId $_.Id -Confirm:$false`
+}
+# Disconnect the session
+Disconnect-MgGraph
+# Import the module
+Import-Module Microsoft.Graph.Applications
+# Connect to Microsoft Graph
+Connect-MgGraph -Scopes "Application.ReadWrite.All"
+# Remove active applications starting with 'GraphApp-Test001'
+Get-MgApplication -Filter "startswith(displayName, 'GraphApp-Test001')" | ForEach-Object {`
+    Remove-MgApplication -ApplicationId $_.Id -Confirm:$false`
+}
+# Remove deleted applications starting with 'GraphApp-Test001'
+Get-MgDeletedApplication -Filter "startswith(displayName, 'GraphApp-Test001')" | ForEach-Object {`
+    Remove-MgDeletedApplication -ApplicationId $_.Id -Confirm:$false`
+}
+# Disconnect the session
+Disconnect-MgGraph
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+& "C:\Code\Unified365toolbox\test\validateapp.ps1"
+Get-MgApplication
+Get-MgApplication | Where-Object { $_.AppId -eq "2529228f-e992-43e1-b9b7-9a1bd7224b61" }
+& "C:\Code\Unified365toolbox\test\validateapp.ps1"
+Get-MgApplication | Where-Object { $_.AppId -eq "2529228f-e992-43e1-b9b7-9a1bd7224b61" }
+& "C:\Code\Unified365toolbox\test\validateapp.ps1"
+Disconnect-MgGraph
+Connect-MgGraph -Scopes "Application.ReadWrite.All"
+& "C:\Code\Unified365toolbox\test\validateapp.ps1"
+Connect-MgGraph -Scopes "Application.ReadWrite.All, Directory.ReadWrite.All"
+Disconnect-MgGraph
+Connect-MgGraph -Scopes "Application.ReadWrite.All, Directory.ReadWrite.All"
+Find-MgGraphcommand Add-MgApplicationKey
+Find-MgGraphcommand Add-MgApplicationKey | select *
+& "C:\Code\Unified365toolbox\test\validateapp.ps1"
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+# Import the module
+Import-Module Microsoft.Graph.Applications
+# Connect to Microsoft Graph
+Connect-MgGraph -Scopes "Application.ReadWrite.All"
+# Get and remove applications starting with 'GraphApp-Test001'
+Get-MgApplication -Filter "startswith(displayName, 'GraphApp-Test001')" | ForEach-Object {`
+    Remove-MgApplication -ApplicationId $_.Id -Confirm:$false`
+}
+# Disconnect the session
+Disconnect-MgGraph
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+md C:\Code\CB\Entra\Ladco\Graph\export
+&"C:\Code\CB\Entra\Universal\CAP\1-Compare-ConditionalAccess-v1-and-Beta.ps1"
+Disconnect-MgGraph
+&"C:\Code\CB\Entra\Universal\CAP\1-Compare-ConditionalAccess-v1-and-Beta.ps1"
+Get-MgContext
+Disconnect-MgGraph
+& "C:\Code\CB\Entra\Universal\CAP\4.1-Delete-allConditionalAccessPolicies-v4-API.ps1"
+Find-MgGraphcommand Get-MgBetaIdentityConditionalAccessPolicy
+& "C:\Code\CB\Entra\Universal\CAP\4.1-Delete-allConditionalAccessPolicies-v4-API.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\2-Exclude-EntraGroup-AllConditionalAccessPolicies copy 9.ps1"
+Find-MgGraphcommand New-MgGroup
+& "C:\Code\CB\Entra\Universal\CAP\2-Exclude-EntraGroup-AllConditionalAccessPolicies copy 9.ps1"
+Install-Script -Name Upload-WindowsAutopilotDeviceInfo
+Install-Script -Name Get-WindowsAutoPilotInfo -Confirm:$false -Force:$true
+& "C:\Code\WinGet-Wrapper\WinGet-WrapperImportGUI.exe"
+Install-Module 'Microsoft.Graph.Groups' -Scope allusers
+appwiz.cpl
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\apps-winget\TeamViewer-Ladco-Managed-by-CCI\Install.ps1"
+cls
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\apps-winget\TeamViewer-Ladco-Managed-by-CCI-v5\Install.ps1"
+appwiz.cpl
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\apps-winget\TeamViewer-Ladco-Managed-by-CCI-v5\Install.ps1"
+hostname
+resolve-path
+cls
+& "C:\Code\CB\Terminal\0.6-Install-Modules-TerminalIcons-Z.ps1"
+cd C:\Code\IntuneManagement
+ls
+.\Start-IntuneManagement.ps1
+& "C:\Code\WinGet-Wrapper\WinGet-WrapperImportGUI.exe"
+cd C:\code\WinGet-Wrapper\
+ls
+.\WinGet-WrapperImportGUI.exe
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Disconnect-MgGraph
+Connect-MgGraph -Scopes "Application.ReadWrite.All, Directory.ReadWrite.All"
+Disconnect-MgGraph
+cls
+# Install v1.0 and beta Microsoft Graph PowerShell modules 
+  Install-Module Microsoft.Graph -Force
+  Install-Module Microsoft.Graph.Beta -AllowClobber -Force 
+  # Connect With Global Admin Account
+  Connect-MgGraph -scopes "Organization.ReadWrite.All,Directory.ReadWrite.All" 
+  # Verify the current status of the DirSync Type
+  Get-MgOrganization | Select OnPremisesSyncEnabled 
+  # Store the Tenant ID in a variable named organizationId
+  $organizationId = (Get-MgOrganization).Id 
+  # Store the False value for the DirSyncEnabled Attribute
+  $params = @{`
+  onPremisesSyncEnabled = $false`
+  }
+  # Perform the update
+  Update-MgBetaOrganization -OrganizationId $organizationId -BodyParameter $params 
+  # Check that the command worked
+  Get-MgOrganization | Select OnPremisesSyncEnabled
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Disconnect-MgGraph
+Connect-MgGraph -Scopes "Application.ReadWrite.All, Directory.ReadWrite.All"
+# Import the module
+Import-Module Microsoft.Graph.Applications
+# Connect to Microsoft Graph
+Connect-MgGraph -Scopes "Application.ReadWrite.All"
+# Import the module
+Import-Module Microsoft.Graph.Applications
+# Connect to Microsoft Graph
+Connect-MgGraph -Scopes "Application.ReadWrite.All"
+# Get and remove applications starting with 'GraphApp-Test001'
+Get-MgApplication -Filter "startswith(displayName, 'GraphApp-Test001')" | ForEach-Object {`
+    Remove-MgApplication -ApplicationId $_.Id -Confirm:$false`
+}
+# Disconnect the session
+Disconnect-MgGraph
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Find-MgGraphcommand https://graph.microsoft.com/v1.0/organization
+Find-MgGraphcommand https://graph.microsoft.com/v1.0/organization | select Permissions
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Find-MgGraphcommand https://graph.microsoft.com/v1.0/organization | select Permissions
+Find-MgGraphcommand https://graph.microsoft.com/v1.0/organization
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v9-Harish-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v7-Harish-MSFT-Az-Support-Verify.sql
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+Invoke-MgGraphRequest -Method GET https://graph.microsoft.com/v1.0/me
+Invoke-MgGraphRequest -Method GET -Uri "https://graph.microsoft.com/v1.0/organization"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+# Ensure you are authenticated
+Connect-MgGraph -Scopes "Directory.Read.All"
+# Make the Graph API request
+$tenantResponse = Invoke-MgGraphRequest -Method GET -Uri "https://graph.microsoft.com/v1.0/organization" -Verbose
+# Output the raw response content
+$tenantResponse.Content
+# Ensure you are authenticated
+Connect-MgGraph -Scopes "Directory.Read.All"
+# Make the Graph API request
+$tenantResponse = Invoke-MgGraphRequest -Method GET -Uri "https://graph.microsoft.com/v1.0/organization" -Verbose
+# Capture and output the raw response content
+$rawContent = $tenantResponse.Content
+Write-Output $rawContent
+# Ensure you are authenticated
+Connect-MgGraph -Scopes "Directory.Read.All"
+# Fetch organization details using the Graph cmdlet
+$organization = Get-MgOrganization
+# Output the organization details
+$organization | Format-List
+Get-MgContext
+Disconnect-MgGraph
+# Ensure you are authenticated
+Connect-MgGraph -Scopes "Directory.Read.All"
+# Fetch organization details using the Graph cmdlet
+$organization = Get-MgOrganization
+# Extract the required details
+$tenantDetails = $organization[0]
+$tenantName = $tenantDetails.DisplayName
+$tenantId = $tenantDetails.Id
+$tenantDomain = $tenantDetails.VerifiedDomains[0].Name
+# Assume $signInLogs is already defined somewhere in your script
+# $signInLogs = <Your logic to get sign-in logs>
+if ($signInLogs -and $signInLogs.Count -gt 0) {`
+    $appId = $signInLogs[0].appId`
+    $appName = $signInLogs[0].appDisplayName`
+} else {`
+    $appId = "N/A"`
+    $appName = "N/A"`
+}
+# Output tenant summary
+Write-EnhancedLog -Message "Tenant Name: $tenantName" -Level "INFO" -ForegroundColor ([ConsoleColor]::White)
+Write-EnhancedLog -Message "Tenant ID: $tenantId" -Level "INFO" -ForegroundColor ([ConsoleColor]::White)
+Write-EnhancedLog -Message "Tenant Domain: $tenantDomain" -Level "INFO" -ForegroundColor ([ConsoleColor]::White)
+Write-EnhancedLog -Message "App ID: $appId" -Level "INFO" -ForegroundColor ([ConsoleColor]::White)
+Write-EnhancedLog -Message "App Name: $appName" -Level "INFO" -ForegroundColor ([ConsoleColor]::White)
+# Ensure you are authenticated
+Connect-MgGraph -Scopes "Directory.Read.All"
+# Fetch organization details using the Graph cmdlet
+$organization = Get-MgOrganization
+# Output the organization details
+$organization | Format-List
+cls
+Disconnect-MgGraph
+cls
+Disconnect-MgGraph
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+certlm.msc
+certmgr.msc
+& "C:\Code\Unified365toolbox\Graph\0-BuildEntraAppRegCertBasedwithGraph.ps1"
+& "C:\Code\Unified365toolbox\Graph\Modules\EnhancedGraphAO\2.5.0\Public\Add-AppAPIPermissions.ps1"
+Get-MgApplication
+& "C:\Code\Unified365toolbox\Graph\Modules\EnhancedGraphAO\2.5.0\Public\Add-AppAPIPermissions.ps1"
+cls
+Disconnect-MgGraph
+cls
+CLS
+CLS
+Get-History
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+get-process
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Connect-MGGraphwithCert-Template-v1.1.ps1"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Connect-MGGraphwithCert-Template-v1.1.ps1"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run -d --name powershell_container -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 tail -f /dev/null
+hostname
+# Start the Docker container
+docker run -d --name powershell_container -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 tail -f /dev/null
+# Enter the running Docker container
+docker exec -it powershell_container pwsh
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Connect-MGGraphwithCert-Template-v1.1.ps1"
+cls
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Connect-MGGraphwithCert-Template-v1.1.ps1"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\Helpers\Get-SignInLogs-Jso-NonBYOD_NOCAP_NOTCOMPLIANT.ps1"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\VPN\1-Export-VPNSettings.ps1"
+& "C:\Code\CB\VPN\1-Export-VPNSettings copy.ps1"
+taskschd.msc
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\install.ps1"
+$PSVersionTable
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\uninstall.ps1"
+cd "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\Remediation.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\Remediation.ps1"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\Remediation.ps1"
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\Remediation.ps1"
+whoami
+docker run --rm -it -v "C:\Code:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\Remediation.ps1"
+Get-VpnConnection
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\Remediation.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\PR4B-ExportVPNtoSPO-v2\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\check.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\check.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+whoami
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\install.ps1"
+docker run --rm -it -v "C:\:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run --rm -it -v "C::/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run --rm -it -v "C:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run --rm -it -v "C:\:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\appgallery\Intune-Win32-Deployer\apps-winget-repo\PR4B_ExportVPNtoSPO-v1\uninstall.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+Ensure-LoggingFunctionExists
+cls
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+$env:PSModulePath -split ';'
+Get-Module
+Write-EnhancedLog -Message "hello world" -ForegroundColor ([ConsoleColor]::green)
+$env:PSModulePath -split ';'
+Get-Module -ListAvailable | Where-Object { $_.Name -like 'Enhanced*' }
+Write-EnhancedLog -Message "hello world" -ForegroundColor ([ConsoleColor]::green)
+Import-Module EnhancedLoggingAO
+Write-EnhancedLog -Message "hello world" -ForegroundColor ([ConsoleColor]::green)
+Get-Module -ListAvailable | Where-Object { $_.Name -eq 'EnhancedLoggingAO' }
+Write-EnhancedLog -Message "hello world" -ForegroundColor ([ConsoleColor]::green)
+Get-Module -ListAvailable | Where-Object { $_.Name -eq 'EnhancedLoggingAO' }
+Import-Module -Name EnhancedLoggingAO -Verbose
+import-module "C:\Program Files\PowerShell\7\Modules\EnhancedLoggingAO\2.5.0\EnhancedLoggingAO.psm1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+Get-Module
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+Get-Module
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+Get-Module
+Get-Module -ListAvailable | Where-Object { $_.Name -eq 'EnhancedLoggingAO' }
+Get-Module -ListAvailable | Where-Object { $_.Name -like 'Enhanced*' }
+Get-Module -ListAvailable | Where-Object { $_.Name -like '*Enhanced*' }
+import-module "C:\Program Files\PowerShell\Modules\EnhancedLoggingAO\2.5.0\EnhancedLoggingAO.psm1"
+Write-EnhancedLog -Message "hello world" -ForegroundColor ([ConsoleColor]::green)
+cls
+code $profile
+Write-EnhancedLog -Message "hello world" -ForegroundColor ([ConsoleColor]::green)
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+code $profile
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+Write-EnhancedLog -Message "hello world" -ForegroundColor ([ConsoleColor]::green)
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+Get-Module -ListAvailable
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+hostname
+docker exec -it my_pwsh_container pwsh
+docker ps
+docker ls
+docker ps
+docker exec -it my_pwsh_container pwsh
+docker ps
+docker exec -it 3a66f95bcaa8
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run -d -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+hostname
+docker run -d -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker ps -a
+docker exec -it my_pwsh_container pwsh
+docker run -d -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker exec -it my_pwsh_container pwsh
+docker run -d -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17
+docker exec -it my_pwsh_container pwsh
+docker run -it -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+docker pull mcr.microsoft.com/powershell:windowsservercore-ltsc2022
+docker run -it -v "C:/:C:/" --name my_pwsh_container mcr.microsoft.com/powershell:windowsservercore-ltsc2022 pwsh
+docker run -it -v "C:\:C:\data" --name my_pwsh_container mcr.microsoft.com/powershell:windowsservercore-ltsc2022 pwsh
+docker run -it -v "C:\:C:\data" --name my_pwsh_container mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker ps
+docker run -it -v "C:\:C:\" --name my_pwsh_container mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker run -it -v "C:\:C:\data" --name my_pwsh_container mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker run -it -v "C:\:C:\a" --name my_pwsh_container mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 pwsh
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\scripts\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker pull mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 powershell -ExecutionPolicy Bypass
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass
+docker run -it -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh
+docker run -it -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 powershell
+docker run -it -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh
+docker run -it -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 powershell
+cls
+exit
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass
+exit
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_nano-pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_nano-pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass -runas admin
+exit
+docker rm $(docker ps -a -q)
+ls
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_nano-pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_nano-pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_nano-pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:lts-nanoserver-ltsc2022 pwsh -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" --name my_pwsh_container mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+exit
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+hostname
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker rm $(docker ps -a -q)
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker info --format '{{.OSType}}'
+& $Env:ProgramFiles\Docker\Docker\DockerCli.exe -SwitchDaemon
+docker info --format '{{.OSType}}'
+& $Env:ProgramFiles\Docker\Docker\DockerCli.exe -SwitchDaemon;docker info --format '{{.OSType}}'
+docker rm $(docker ps -a -q)
+cls
+& $Env:ProgramFiles\Docker\Docker\DockerCli.exe -SwitchDaemon;docker info --format '{{.OSType}}'
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\scripts" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\scripts" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q)
+cls
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+docker rm $(docker ps -a -q); docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+& $Env:ProgramFiles\Docker\Docker\DockerCli.exe -SwitchDaemon;docker info --format '{{.OSType}}'
+docker run -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+get-error
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+# Define an array of numbers
+$numbers = 1..10
+# Use ForEach-Object -Parallel to process each number in parallel
+$results = $numbers | ForEach-Object -Parallel {`
+    # Simulate some work by sleeping for a random amount of time`
+    Start-Sleep -Seconds (Get-Random -Minimum 1 -Maximum 5)`
+    # Return the square of the number`
+    $_ * $_`
+}
+# Output the results
+$results
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+function Get-Square {`
+    param (`
+        [int]$Number`
+    )`
+    return $Number * $Number`
+}
+$numbers = 1..10
+$results = $numbers | ForEach-Object -Parallel {`
+    # Import the module`
+    Import-Module $using:modulePath`
+`
+    # Define the custom function`
+    Invoke-Expression $using:function:GetSquare`
+`
+    # Use the custom function`
+    Get-Square -Number $_`
+} -ThrottleLimit 4
+# Output the results
+$results
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+$pwd
+ps | Select name, id | convertto-json | set-content test.json
+$reader = [System.IO.StreamReader]::new("$pwd\test.json")
+$jarray = [Newtonsoft.Json.Linq.JArray]::Load([NewtonSoft.Json.JsonTextReader]$reader)
+$jarray.SelectToken('$').SelectTokens('$..[?(@.Name == ''pwsh'')]')
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+class ProcInfo {`
+    [string] $Name`
+    [int] $Id`
+}
+ps | Select name, id | convertto-json | set-content test.json
+$reader = [System.IO.StreamReader]::new("$pwd\test.json")
+$jarray = [Newtonsoft.Json.Linq.JArray]::Load([NewtonSoft.Json.JsonTextReader]$reader)
+class ProcInfo {`
+    [string] $Name`
+    [int] $Id`
+}
+ps | Select name, id | convertto-json | set-content test.json
+$reader = [System.IO.StreamReader]::new("$pwd\test.json")
+$jarray = [Newtonsoft.Json.Linq.JArray]::Load([NewtonSoft.Json.JsonTextReader]$reader)
+$jarray.SelectToken('$').SelectTokens('$..[?(@.Name == ''pwsh'')]').ToObject[ProcInfo]()
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ-v2.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ-v2.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ-v3.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ-v2.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ-v3.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ-v2.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ-v3.ps1
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-LINQ.ps1
+& "C:\Code\CB\Terminal\7-ExportandImport-CommandHistory.ps1"
+C:\Windows\System32\wsl.exe --update --web-download
+C:\Windows\System32\wsl.exe --update --web-download:
+wsl --update
+C:\Windows\System32\wsl.exe --update --web-download:
+docker pull mcr.microsoft.com/powershell:7.4-alpine-3.17
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh
+code $profile
+C:\Code\CB\Terminal\0.5-Install-Modules-Universal-v5.ps1
+C:\Code\CB\Terminal\0.6-Install-Modules-TerminalIcons-Z.ps1
+C:\Code\CB\Terminal\1.2-Install-OhMyPosh.ps1
+C:\Code\CB\Terminal\1.3-Add-OhMyPosh-PATH_v7.ps1
+C:\Code\CB\Terminal\1.4-Install-Nerdfont-with-OMP.ps1
+C:\Code\CB\Terminal\1.6-Install-Nerdfont-with-OMP.ps1
+C:\Code\CB\Terminal\5-Set-Profile.ps1
+C:\Code\CB\Terminal\6-Set-Profile.ps1
+C:\Code\CB\Terminal\1.6-Install-Nerdfont-with-OMP.ps1
+code $profile
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+C:\Code\Modules\EnhancedAO.Graph.SignInLogs\2.0.0\ConvertModuleBacktoSinglePs1.ps1
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 6.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 6.ps1"
+C:\Code\Modules\EnhancedBoilerPlateAO\2.0.0\ConvertModuleBacktoSinglePs1.ps1
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 6.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 6.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 6.ps1"
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-Parallel.ps1
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 6.ps1"
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\combine-allmodules.ps1
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 6.ps1"
+Check-DeviceStateInIntune
+code $profile
+Check-DeviceStateInIntune
+# Split the PSModulePath variable into an array
+$modulePaths = $env:PSModulePath -split ';'
+# Create a custom object for each path and output it as a table
+$modulePaths | ForEach-Object {`
+    [PSCustomObject]@{`
+        ModulePath = $_`
+    }`
+} | Format-Table -AutoSize
+Check-DeviceStateInIntune
+Load-SignInLogs
+Check-DeviceStateInIntune
+Load-SignInLogs
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7.ps1"
+Load-SignInLogs
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7.ps1"
+Ensure-LoggingFunctionExists
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7.ps1"
+Initialize-Results
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7.ps1"
+Handle-Error
+Ensure-LoggingFunctionExists
+Load-SignInLogs
+Ensure-LoggingFunctionExists
+$inputData = 1..10
+$inputData | ForEach-Object -Parallel {`
+    # Now Get-CustomData is available because the module was imported in the profile`
+    Ensure-LoggingFunctionExists`
+} -ThrottleLimit 4
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+code $profile
+Ensure-LoggingFunctionExists
+"C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 5-working-code-no-parallel.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 5-working-code-no-parallel.ps1"
+code $profile
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7-parallel-removed-boiler-plate.ps1"
+code $profile
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7-parallel-removed-boiler-plate.ps1"
+code $profile
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7-parallel-removed-boiler-plate.ps1"
+C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-Parallel-v2.ps1
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7-parallel-removed-boiler-plate.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 5-working-code-no-parallel.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+code $profile
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+scabbed tingly monkhood rotunda 56&
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 7-parallel-removed-boiler-plate.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 5-working-code-no-parallel.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+Disconnect-Graph
+cls
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+& "C:\Code\IntuneManagement\Start-IntuneManagement.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 5-working-code-no-parallel.ps1"
+cd C:\Code\CB\Entra\ICTC\Entra\Devices\Beta
+ls
+cls
+ls
+& '.\1-Get-Content and ConvertFrom-Json.ps1'
+& '.\2-System.IO.StreamReader and ConvertFrom-Json.ps1'
+.\3-System.Text.Json.JsonDocument.ps1
+.\4-System.Text.Json.JsonDocument.ps1
+.\3-System.Text.Json.JsonDocument.ps1
+.\4-System.Text.Json.JsonDocument.ps1
+.\3-System.Text.Json.JsonDocument.ps1
+.\4-System.Text.Json.JsonDocument.ps1
+.\3-System.Text.Json.JsonDocument.ps1
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\5-compare-json-file-read.ps1"
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+cls
+docker run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+podman run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-newtonsoft-linq.ps1"
+ps | Select name, id | convertto-json | set-content test.json
+$reader = [System.IO.StreamReader]::new("$pwd\test.json")
+$jarray = [Newtonsoft.Json.Linq.JArray]::Load([NewtonSoft.Json.JsonTextReader]$reader)
+ps | Select name, id | convertto-json | set-content test.json
+$reader = [System.IO.StreamReader]::new("$pwd\test.json")
+$jarray = [Newtonsoft.Json.Linq.JArray]::Load([NewtonSoft.Json.JsonTextReader]$reader)
+$jarray.SelectToken('$').SelectTokens('$..[?(@.Name == ''pwsh'')]')
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\test-newtonsoft-linq.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\Logging.ps1"
+certmgr.msc
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+podman run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+certlm.msc
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+# Retrieve all service principals
+$servicePrincipals = Get-MgServicePrincipal
+# Display the service principals
+$servicePrincipals | Format-Table DisplayName, AppId, Id
+get-mguser
+$servicePrincipals | Format-Table DisplayName, AppId, Id | Sort-Object -Property Displayname
+$servicePrincipals | Format-Table DisplayName, AppId, Id | Sort-Object -Property Displaynam
+$servicePrincipals | Sort-Object -Property Displayname | Format-Table DisplayName, AppId, Id
+& "C:\Code\GraphAppwithCert\Graph\test-ServicePrincipal.ps1"
+& "C:\Code\GraphAppwithCert\Graph\test-ServicePrincipal.ps1"
+& "C:\Code\Modules\EnhancedGraphAO\3.0.0\Public\Grant-AdminConsentToApiPermissions.ps1"
+& "C:\Code\GraphAppwithCert\Graph\test-ServicePrincipal.ps1"
+Get-MgServicePrincipal -Filter "displayName eq 'Microsoft Graph'" -Property Oauth2PermissionScopes | Select -ExpandProperty Oauth2PermissionScopes | fl
+Get-MgOauth2PermissionGrant -Filter "clientId eq '08216f27-1d3d-4a9f-9406-80f957e7fca6' and consentType eq 'AllPrincipals'"
+& "C:\Code\GraphAppwithCert\Graph\test-grantadminconsent.ps1"
+& "C:\Code\Intune-Win32-Deployer\test-granadminconsent2.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+& "C:\Code\GraphAppwithCert\Graph\test-ServicePrincipal.ps1"
+Get-MgServicePrincipal -Filter "AppId eq 'f2108844-50d3-45cb-9c7c-6d1ac5b92912'"
+Get-MgServicePrincipal
+Get-MgServicePrincipal | Sort-Object -Property displayname
+Get-MgServicePrincipal -Filter "AppId eq '6065ddef-dc78-4a96-b430-27d50c4722d3'"
+Get-MgServicePrincipal -Filter "Id eq '6065ddef-dc78-4a96-b430-27d50c4722d3'"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+Get-MgServicePrincipalOauth2PermissionGrant -ServicePrincipalId $servicePrincipalId
+Get-MgServicePrincipalOauth2PermissionGrant -ServicePrincipalId "37ebfe0e-2b5b-45f2-bfb1-9118be1dfc3d"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy.ps1"
+sysdm.cpl
+az
+sysdm.cpl
+az
+az login
+exit
+az login
+az account clear az config set core.enable_broker_on_windows=false
+az login
+az account clear az config
+az login --allow-no-subscriptions
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+podman run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+"C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy 2.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy 2.ps1"
+certmgr.msc
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+podman run --rm -it -v "C:/:/usr/src" mcr.microsoft.com/powershell:7.4-alpine-3.17 pwsh -File "/usr/src/code/CB/Docker/PowerShell/4-Run-Script.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\CB\DB\PSQL\CaRMS\helper\1-Add-PATH_v8-AS_SYSTEM.ps1"
+psql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v10-Harish-MSFT-Az-Support.sql
+\du
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v10-Harish-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v10-Harish-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v10-Harish-MSFT-Az-Support.sql
+New-SelfSignedCertificate
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy 2.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+Set-TimeZone 'central standard time'
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\check.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\install.ps1"
+taskschd.msc
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\Remediation.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\check.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v8\Remediation.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v9\uninstall.ps1"
+git clone --branch v2 --single-branch https://github.com/aollivierre/Modules.git
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v9\uninstall.ps1"
+git clone --branch v2 --single-branch https://github.com/aollivierre/Modules.git
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v9\uninstall.ps1"
+Stop-Transcript
+Stop-Transcript
+Stop-Transcript
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v9\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\install.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\uninstall.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\Intune-Win32-Deployer\Win32Apps-Gallery\PR4B-BitLockerRecoveryEscrow-v10\check.ps1"
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+sysdm.cpl
+C:\Code\CB\Terminal\0.6-Install-Modules-TerminalIcons-Z.ps1
+keepassxc-cli
+sysdm.cpl
+keepassxc-cli
+docker info
+wsl -l -v
+# Stop Docker Desktop
+Stop-Process -Name "Docker Desktop" -Force
+# Shutdown WSL
+wsl --shutdown
+# Start Docker Desktop
+Start-Process -FilePath "C:\Program Files\Docker\Docker\Docker Desktop.exe"
+# Start WSL (docker-desktop distribution)
+wsl -d docker-desktop
+docker images -f "dangling=true"
+docker image prune
+docker volume ls -f "dangling=true"
+docker volume prune
+& 'C:\Program Files\Docker\Docker\DockerCli.exe' -SwitchLinuxEngine
+docker info
+docker ps
+code $profile
+docker image prune
+docker volume prune
+ls .devcontainer/Microsoft.VSCode_profile.ps1
+docker volume prune
+docker image prune
+$psversiontable
+docker image prune
+docker volume prune
+code C:\Windows\system32\drivers\etc\hosts
+docker volume prune
+docker image prune
+podman
+podman
+podman --version
+export DOCKER_HOST=unix:///var/run/podman/podman.sock
+echo %DOCKER_HOST%
+echo $env:DOCKER_HOST
+echo $env:PATH
+cls
+echo $env:DOCKER_HOST
+[System.Environment]::SetEnvironmentVariable('DOCKER_HOST', 'unix:///var/run/podman/podman.sock', [System.EnvironmentVariableTarget]::Machine)
+echo $env:DOCKER_HOST
+$PSVersionTable
+New-SelfSignedCertificate
+Get-Service
+git status
+git add C:\code\Intune-Win32-Deployer\Win32Apps
+git status
+cat .gitignore
+$PSVersionTable
+& "C:\Code\CB\Terminal\7-Export-CommandHistory.ps1"
+Get-History
+& "C:\Code\CB\Terminal\7-Export-CommandHistory.ps1"
+(Get-PSReadlineOption).HistorySavePath
+& "C:\Code\CB\Terminal\7-Export-CommandHistory.ps1"
+Get-FileHash
+& "C:\Code\CB\Terminal\7-Export-CommandHistory.ps1"
+"C:\Code\CB\Terminal\7-Export-CommandHistory.ps1"
+& "C:\Code\CB\Terminal\7-Export-CommandHistory.ps1"
+$hash1 = (Get-FileHash -Path "C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt" -Algorithm MD5).Hash; $hash2 = (Get-FileHash -Path "C:\code\configs\PowerShell_history.txt" -Algorithm MD5).Hash; if ($hash1 -eq $hash2) { "Files are identical" } else { "Files are not identical" }
+Compare-Object (Get-Content -Path "C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt") (Get-Content -Path "C:\code\configs\PowerShell_history.txt") -SyncWindow 0
+Get-Content -Path "C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt" -Encoding Byte | Measure-Object -Sum
+Get-Content -Path "C:\code\configs\PowerShell_history.txt" -Encoding Byte | Measure-Object -Sum
+& "C:\Code\CB\Terminal\7-Export-CommandHistory.ps1"
+& "C:\Code\CB\Terminal\7-ExportandImport-CommandHistory.ps1"
+docker run -it -v "C:\Users\Admin-Abdullah\AppData\Local\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+hostname
+whoami
+docker run -it -v "C:\code\Intune-Win32-Deployer:C:\code" -v "C:\Code\Modules:C:\code\Modules" --name my_pwsh_container -e SCRIPT_BASE_PATH="C:\code" -e MODULES_BASE_PATH="C:\code\Modules" mcr.microsoft.com/powershell:windowsservercore-ltsc2022 powershell -ExecutionPolicy Bypass
+"C:\code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+& "C:\code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+hostname
+& "C:\code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker search powershell
+cls
+& "C:\code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+$PSVersionTable
+hostname
+docker exec -it 7d2ccec039fc9d989eebad431c5943eb482ef692c44631882ff359946d89c71c cmd 
+$PSVersionTable
+$PSVersionTable
+docker exec -it 7d2ccec039fc9d989eebad431c5943eb482ef692c44631882ff359946d89c71c cmd 
+hostname
+docker exec -it 7d2ccec039fc9d989eebad431c5943eb482ef692c44631882ff359946d89c71c cmd 
+& "C:\code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker exec -it c8dac71b94f90ffb187b175f4856511a7ef86282f30225a15dc25bf714c5e971 cmd 
+hostname
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\code\CB\Docker\PowerShell\Windows\0-Check-HyperVFeatures.ps1"
+cd "C:\Users\Administrator\Downloads\cri-containerd-1.7.18-windows-amd64.tar\cri-containerd-1.7.18-windows-amd64"
+ls
+.\containerd.exe --config config.toml
+cd "C:\Users\Administrator\Downloads\cri-containerd-1.7.18-windows-amd64.tar\cri-containerd-1.7.18-windows-amd64"
+ls
+.\ctr.exe image pull mcr.microsoft.com/windows/servercore:ltsc2022
+.\ctr.exe run --rm -t mcr.microsoft.com/windows/servercore:ltsc2022 mycontainer cmd
+& "C:\code\CB\containerd\1-Add-PATH_v8-AS_Containerd.ps1"
+ctr
+wget
+& "C:\code\CB\containerd\0-Download-containerd-and-nerdctl.ps1"
+tar
+& "C:\code\CB\containerd\0-Download-containerd-and-nerdctl.ps1"
+sysdm.cpl
+& "C:\code\CB\containerd\0-Download-containerd-and-nerdctl.ps1"
+nerdtcl
+nerdctl ps -a
+nerdctl images
+& "C:\code\CB\containerd\3-Remove-Containers-Using-Nerdctl.ps1"
+nerdctl ps -a
+nerdctl ps -a --format "{{.ID}}" | % { nerdctl rm $_ }
+nerdctl ps -a --format "{{.ID}}" | % { nerdctl stop $_; nerdctl rm $_ }
+nerdctl ps -a --format "{{.ID}}" | % { nerdctl rm -f $_ }
+nerdctl ps -a
+nerdctl inspect mycontainer
+ctr -n k8s.io containers rm mycontainer
+ctr -n default containers list
+nerdctl ps -a
+ctr -n default containers rm mycontainer
+nerdctl ps -a
+ctr -n default containers list -q | % { ctr -n default containers rm $_ }
+& "C:\code\CB\containerd\6-CreateNerdctlWinContainer.ps1"
+& "C:\code\CB\containerd\0.1-Download-CNI-Plugins.ps1"
+& "C:\code\CB\containerd\6-CreateNerdctlWinContainer.ps1"
+sysdm.cpl
+& "C:\code\CB\containerd\0.1-Download-CNI-Plugins.ps1"
+& "C:\code\CB\containerd\6-CreateNerdctlWinContainer.ps1"
+& "C:\code\CB\containerd\0.1-Download-CNI-Plugins.ps1"
+& "C:\code\CB\containerd\0-Download-containerd-and-nerdctl.ps1"
+& "C:\code\CB\containerd\6-CreateNerdctlWinContainer.ps1"
+sysdm.cpl
+& "C:\code\CB\containerd\0-Download-containerd-and-nerdctl.ps1"
+sysdm.cpl
+nerdctl ps -a
+sysdm.cpl
+containerd.exe
+nerdctl ps -a
+& "C:\code\CB\containerd\3-Remove-Containers-Using-Nerdctl.ps1"
+nerdctl ps -a
+containerd.exe
+nerdctl ps -a
+tar
+& "C:\code\CB\containerd\3-Remove-Containers-Using-Nerdctl.ps1"
+& "C:\code\CB\containerd\6-CreateNerdctlWinContainer.ps1"
+sysdm.cpl
+& "C:\code\CB\containerd\6-CreateNerdctlWinContainer.ps1"
+& "C:\code\CB\containerd\0-Download-containerd-and-nerdctl copy.ps1"
+& "C:\code\CB\containerd\0-Download-containerd-and-nerdctl copy 2.ps1"
+& "C:\code\CB\containerd\0-Download-containerd-and-nerdctl copy 4.ps1"
+& "C:\code\CB\containerd\0-Download-containerd-and-nerdctl copy 5.ps1"
+& "C:\code\CB\containerd\0-Download-containerd-and-nerdctl copy 6.ps1"
+& "C:\code\CB\containerd\0-Download-containerd-and-nerdctl copy 5.ps1"
+& "C:\code\CB\containerd\6-CreateNerdctlWinContainer.ps1"
+& "C:\code\CB\containerd\3-Remove-Containers-Using-Nerdctl.ps1"
+ctr -n default containers list -q | ForEach-Object { ctr -n default containers rm $_ }
+nerdctl ps -a
+& "C:\code\CB\containerd\3-Remove-Containers-Using-Nerdctl.ps1"
+nerdctl ps -a
+nerdctl ps -a --format "{{.ID}}" | % { nerdctl stop $_; nerdctl rm $_ }
+nerdctl ps -a
+& "C:\code\CB\containerd\3-Remove-Containers-Using-Nerdctl.ps1"
+nerdctl ps -a
+nerdctl ps -a --format "{{.ID}}" | % { nerdctl stop $_; nerdctl rm $_ }
+nerdctl images
+nerdctl ps -q | xargs -r nerdctl stop
+nerdctl ps -a -q | xargs -r nerdctl rm
+# Stop and remove all containers
+$containers = & nerdctl ps -q
+if ($containers) {`
+    $containers | ForEach-Object { & nerdctl stop $_ }`
+    $containers | ForEach-Object { & nerdctl rm $_ }`
+}
+# Remove all images
+$images = & nerdctl images -q
+if ($images) {`
+    $images | ForEach-Object { & nerdctl rmi $_ }`
+}
+# Remove all volumes
+$volumes = & nerdctl volume ls -q
+if ($volumes) {`
+    $volumes | ForEach-Object { & nerdctl volume rm $_ }`
+}
+Write-Host "All containers, images, and volumes have been removed."
+& "C:\Code\CB\containerd\3-Remove-Containers-Using-Nerdctl.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\0-Check-HyperVFeatures.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\3-Check-WSL.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker restart my_pwsh_container
+docker exec -it my_pwsh_container pwsh
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker restart my_pwsh_container
+docker exec -it my_pwsh_container pwsh
+$profile
+notepad "C:\Users\Administrator\Documents\PowerShell\Microsoft.PowerShell_profile.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+cls
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+cls
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+hostname
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+docker restart my_pwsh_container
+docker exec -it my_pwsh_container pwsh
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\6-CreateDockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-NewDockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-NewDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+hostname
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-NewDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-NewDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-NewDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-NewDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+cls
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-NewDockerWinContainer.ps1"
+docker volume create portainer_data
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v portainer_data:C:\data -v \\.\pipe\docker_engine:\\.\pipe\docker_engine portainer/portainer-ce:latest
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v portainer_data:C:\data -v \\.\pipe\docker_engine:\\.\pipe\docker_engine portainer/portainer-ce:latest
+cls
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-NewDockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-CreateDockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+cls
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+docker exec -it my_pwsh_container_20240627133016 pwsh
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy 2.ps1"
+& "C:\Code\CB\Teams\BusinessVoice\List-Autoattendant2.ps1"
+Connect-MgGraph -Scopes "CloudCommunications.Read.All"
+Connect-MgGraph
+Invoke-MgGraphRequest -Method GET -Uri "https://graph.microsoft.com/v1.0/communications/callRecords/getAutoAttendants"
+Find-MgGraphcommand "https://graph.microsoft.com/v1.0/communications/callRecords/getAutoAttendants"
+Find-MgGraphcommand -uri "https://graph.microsoft.com/v1.0/communications/callRecords/getAutoAttendants"
+& "C:\Code\CB\Teams\BusinessVoice\List-Autoattendant2.ps1"
+Connect-MicrosoftTeams
+& "C:\Code\CB\Teams\BusinessVoice\List-Autoattendant2.ps1"
+Find-MgGraphcommand Get-CsAutoAttendant
+& "C:\Code\CB\Teams\BusinessVoice\List-Autoattendant2.ps1"
+& "C:\Code\Beta\Benchmark\PSDownlaoder\Bench-Download.ps1"
+ls
+& "C:\Code\Beta\Benchmark\PSDownlaoder\Bench-Download.ps1"
+& "C:\Code\Beta\Benchmark\PSDownlaoder\Socket.ps1"
+& "C:\Code\Beta\Benchmark\PSDownlaoder\Socket copy.ps1"
+& "C:\Code\Beta\Benchmark\PSDownlaoder\Socket-openAI.ps1"
+& "C:\Code\Beta\Benchmark\PSDownlaoder\Socket-Claude.ps1"
+& "C:\Code\Beta\Benchmark\PSDownlaoder\Socket-openAI.ps1"
+& "C:\Code\Beta\Benchmark\PSDownlaoder\Socket-Claude.ps1"
+& "C:\Code\Beta\Benchmark\PSDownlaoder\Socket-openAI.ps1"
+& "C:\Code\Beta\Benchmark\PSDownlaoder\Socket-OpenAI-v2.ps1"
+& "C:\Code\Beta\Benchmark\PSDownlaoder\AllMethods-openAI.ps1"
+& "C:\Code\Beta\Benchmark\PSDownlaoder\highperf-openai.ps1"
+& "C:\Code\Beta\Benchmark\PSDownlaoder\highperf-claude.ps1"
+& "C:\Code\Beta\Benchmark\PSDownlaoder\highperf-openai.ps1"
+& "C:\Code\Beta\Benchmark\PSDownlaoder\AllMethods-openAI copy 2.ps1"
+& "C:\Code\CB\M365DSC\Export-M365DSC-granular.ps1"
+& "C:\Code\CB\M365DSC\Export-M365DSC-ByProduct-external-PSD1.ps1"
+Get-MgServicePrincipal -Filter "displayName eq 'Microsoft Graph'" -Select id
+& "C:\Code\CB\M365DSC\Export-M365DSC-ByProduct-external-PSD1.ps1"
+Get-M365DSCAllResources
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" my_pwsh_container_20240702073211
+ping 172.26.88.168
+ping e3413c35b554
+ping -4 e3413c35b554
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+hostname
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+hostname
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rm $(docker ps -a -q) -f; docker rmi $(docker images -f "dangling=true" -q) -f
+docker rmi $(docker images -q | grep -v $(docker images --format '{{.ID}}' mcr.microsoft.com/windows/servercore:ltsc2022))
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+ts
+sill
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\ListallcontainersNetworkIP.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\ListallcontainersNetworkIP.ps1"
+whoami
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\ListallcontainersNetworkIP.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\ListallcontainersNetworkIP.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+$env:USERPROFILE
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\ListallcontainersNetworkIP.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\ListallcontainersNetworkIP.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Install-LatestOpenSSH.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Install-LatestOpenSSH.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Install-LatestOpenSSH.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+e
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Install-LatestOpenSSH.ps1"
+services.msc
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\ListallcontainersNetworkIP.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Install-LatestOpenSSH.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+ipconfig
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+hostname
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+hostname
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+hostname
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Install-LatestOpenSSH.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker rmi $(docker images -q | grep -v $(docker images --format '{{.ID}}' mcr.microsoft.com/windows/servercore:ltsc2022))
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+dd
+ia
+otmn
+s
+l
+cpsll
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+docker images -q
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+cls
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+o
+Start-Service ssh-agent
+ssh-add C:\Users\Administrator\.ssh\id_rsa
+ssh my_pwsh_container_20240703080617
+Start-Service ssh-agent
+ssh-add C:\Users\Administrator\.ssh\id_rsa
+ping my_pwsh_container_20240703080617
+hostname
+cls
+Start-Service ssh-agent
+ssh-add C:\Users\Administrator\.ssh\id_rsa
+ssh my_pwsh_container_20240703080617
+ssh -vvv my_pwsh_container_20240703080617
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+ssh -vvv my_pwsh_container_20240703084212
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+cls
+ssh -vvv my_pwsh_container_20240703085007
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+ssh -vvv my_pwsh_container_20240703085940
+cls
+Start-Service ssh-agent
+ssh-add C:\Users\Administrator\.ssh\id_rsa
+ssh -vvv my_pwsh_container_20240703085940
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+ssh -vvv my_pwsh_container_20240703090949
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+ssh -vvv my_pwsh_container_20240703092118
+Start-Service ssh-agent
+ssh-add C:\Users\Administrator\.ssh\id_rsa
+ssh -vvv my_pwsh_container_20240703092118
+cls
+ssh -vvv ssh@172.26.80.83
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+ssh -vvv my_pwsh_container_20240703101131
+cls
+ssh ssh@172.26.86.108
+ssh -i C:\Users\Administrator\.ssh\id_rsa ssh@172.26.86.108
+cls
+ssh -vvv -i C:\Users\Administrator\.ssh\id_rsa ssh@172.26.86.108
+ssh -o IdentityAgent=none -i C:\Users\Administrator\.ssh\id_rsa ssh@172.26.86.108
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+cls
+cls
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+Get-Service ssh-agent
+ssh-add -L
+Get-Acl $env:USERPROFILE\.ssh | Format-List
+Get-Acl $env:USERPROFILE\.ssh\id_rsa | Format-List
+Get-Content $env:USERPROFILE\.ssh\config
+ssh-add -L
+Get-Content $env:USERPROFILE\.ssh\config
+Get-Acl $env:USERPROFILE\.ssh | Format-List
+Get-Acl $env:USERPROFILE\.ssh\id_rsa | Format-List
+ssh -i $env:USERPROFILE\.ssh\id_rsa -vvv ssh@172.26.84.6
+ssh-add -L
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+ssh-add -L
+ssh-add -D
+ssh-add $env:USERPROFILE\.ssh\id_rsa
+ssh-add -L
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+ssh-add -L
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+ssh -i $env:USERPROFILE\.ssh\id_rsa -vvv ssh@172.26.88.177
+ssh-keygen -lf C:\Users\Administrator\.ssh\id_rsa.pub
+ssh-keygen -lf C:\Users\Administrator\.ssh\id_rsa
+docker exec -it 7c4140f9b3b36a36dd6250e6c2d3753c418fa149192f7ce266b0380443a90c1d pwsh
+ssh-keygen -lf ~/.ssh/id_rsa
+ssh-keygen -lf C:\Users\Administrator\.ssh\id_rsa
+ssh-keygen -lf C:\Users\Administrator\.ssh\id_rsa.pub
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+ssh-copy-id -i ~/.ssh/id_rsa.pub ssh@172.26.83.95
+"C:\Program Files\Git\usr\bin\ssh-copy-id" -i ~/.ssh/id_rsa.pub ssh@172.26.83.95
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+docker exec -it 6871bca27ec865ba2c35443b4f9ade303d27cb5c69bfe238da98bee48f5ea86d pwsh
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+cls
+ssh-add -L
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+docker exec -it 6871bca27ec865ba2c35443b4f9ade303d27cb5c69bfe238da98bee48f5ea86d pwsh
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+docker exec -it 6871bca27ec865ba2c35443b4f9ade303d27cb5c69bfe238da98bee48f5ea86d pwsh
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+docker exec -it 6871bca27ec865ba2c35443b4f9ade303d27cb5c69bfe238da98bee48f5ea86d pwsh
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\updateSSHConfig.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+docker exec -it 4954bc82b6126074170b256c614a704175e7e45cac8be2c2c93d8455696fa140 pwsh
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+docker exec -it 4954bc82b6126074170b256c614a704175e7e45cac8be2c2c93d8455696fa140 pwsh
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+echo
+docker exec -it 5547317c56d8be4d5638246ad70fcd19562c0f89f5e323300f9e00b2f44d7c22 pwsh
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+docker exec -it 049edaf7b65b1eca062a3a077c76a5d7b726577a3ab6f6781c47bec196845f6e pwsh
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy 2.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 5-working-code-no-parallel.ps1"
+$PSVersionTable
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 5-working-code-no-parallel.ps1"
+cls
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 5-working-code-no-parallel.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy 2.ps1"
+& "C:\Code\CB\Entra\ICTC\Entra\Devices\Beta\get-allauditlogs copy 5-working-code-no-parallel.ps1"
+cd "C:\Code\Office365\O365\Functions\SCC\Add-RoleGroup"
+ls
+.\1-Connect-ExchangeOnline.ps1
+ls
+.\2-Add-Remove-RoleGroup-EXO-Purview-v2.ps1
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1" ; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1" ; pwsh & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1" ; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+Start-Process -FilePath "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1" -Wait
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+Start-Process -FilePath "powershell.exe" -ArgumentList "-File 'C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1'" -Wait
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+Start-Process -FilePath "powershell.exe" -ArgumentList "-File 'C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1'" -Wait
+$job = Start-Job -ScriptBlock {`
+    & "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"`
+}
+# Wait for the job to complete
+Wait-Job -Job $job
+# Retrieve job result
+Receive-Job -Job $job
+# Now run the next script
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1" ; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+$job = Start-Job -ScriptBlock {`
+    & "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"`
+}
+# Wait for the job to complete
+Wait-Job -Job $job
+# Retrieve job result
+Receive-Job -Job $job
+# Now run the next script
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+$job = Start-Job -ScriptBlock {`
+    & "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"`
+}
+# Wait for the job to complete
+Wait-Job -Job $job
+# Retrieve job result
+Receive-Job -Job $job
+# Now run the next script
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"
+docker exec -it 182deb65def79381ee3129a6086b710d20be433ff56ae8f3baf0155dccea6f38 pwsh
+Disconnect-MgGraph
+cls
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy 2.ps1"
+& "C:\Code\CB\Entra\Compliance\Get-ComplianceReportBasedonSignInLogs.ps1"
+Set-TimeZone 'eastern standard time'
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+code $PROFILE
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+gets
+get-service
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy 2.ps1"
+docker run -d 63096cb3e8102d46103db86cb2e4454501032b4eea068b8501f38ad044b755a0tail -f /dev/null
+docker run -d my_pwsh_image_with_graphauth_20240705090706:latest -f /dev/null
+docker run -d mcr.microsoft.com/windows/servercore:ltsc2022 -f /dev/null
+docker run -d mcr.microsoft.com/windows/servercore:ltsc2022 tail -f /dev/null
+docker run -d my_pwsh_image_with_graphauth_20240705090706:latest powershell -Command "while ($true) { Start-Sleep -Seconds 3600 }"
+docker ps
+docker logs fc6a9e18bfcc007af8349dc9aea07bd279125fc1deec9f5be18cc8baf01a428f
+docker run -d my_pwsh_image_with_graphauth_20240705090706:latest powershell -Command "while ($true) { Start-Sleep -Seconds 3600 }"
+docker ps
+docker logs 5235373dd1a5651a1c936690c3bd541babb871a3a3156c43079d8fd5b4462a53
+docker run -d my_pwsh_image_with_graphauth_20240705090706:latest powershell -Command "while (\$true) { Start-Sleep -Seconds 3600 }"
+docker ps
+docker logs 0cd4e8b4f70ba302e8aaa597fa3b05fa5a4f56a4b7599fb3e6fa5e12bb758f2e
+docker run -d my_pwsh_image_with_graphauth_20240705090706:latest powershell -NoExit -Command "Start-Sleep -Seconds 3600"
+docker run -d my_pwsh_image_with_graphauth_20240705090706:latest powershell -NoExit -Command "Start-Sleep -Seconds 999999"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1" ; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; Start-Sleep -Seconds 10; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode copy.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\test-updatevscodesettings.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode copy.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\test-updateknownhostsfile.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode copy.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Install-VSCodeExtensionInRemote.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode copy.ps1"
+docker commit my_pwsh_container_20240705171845 mycontinerwithvscodeserverandpsextension
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode copy.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Install-VSCodeServer.ps1"
+wget -O- https://aka.ms/install-vscode-server/setup.sh | sh
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\Install-VSCodeServer.ps1"
+cd C:\vscode-server\vscode-server-win32-x64\bin
+ls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode copy.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode copy.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+cls
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode copy.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode copy.ps1"
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v12-MSFT-Az-Support.sql
+& "C:\Code\CB\DB\PSQL\CaRMS\helper\1-Add-PATH_v8-AS_SYSTEM.ps1"
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v12-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d postgres -f C:\Code\CB\DB\PSQL\CaRMS\postgres\GrantPermissions-az-dw-psql01-postgres-v12-MSFT-Az-Support.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d postgres
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw
+pg_dump -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw
+cd "C:\Code\CB\DB\PSQL\CaRMS\postgres"
+ls
+pg_dump -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw
+pg_dump -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw dump_output.sql
+pg_dump -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw > dump_output.sql
+notepad "C:\Code\CB\DB\PSQL\CaRMS\postgres\dump_output.sql"
+pg_dump -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -s > dump_output_v2.sql
+psql.exe -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw
+pg_dump -h az-dw-psql01.postgres.database.azure.com -U az_pg_admin@az-dw-psql01 -d az_carms_dw -s > dump_output_v3.sql
+& "C:\Code\CB\Entra\Compliance\Get-ComplianceReportBasedonSignInLogs.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode copy.ps1"
+& "C:\Code\CB\Entra\Compliance\Get-ComplianceReportBasedonSignInLogs.ps1"
+& "C:\Code\CB\Entra\EntraExporter\EnterpriseAppImporter\Import-EnterpriseApp.ps1"
+& "C:\Code\CB\Git\Fix-FileNameTooLong-v2.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\0-Import-microsoft.graph.authentication.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\1-Compare-ConditionalAccess-v1-and-Beta.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\2-Exclude-EntraGroup-AllConditionalAccessPolicies copy 9.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\2.1-Exclude-Intune-App-AllConditionalAccessPolicies copy 13.ps1"
+& "C:\Code\CB\Entra\EntraExporter\EnterpriseAppImporter\2.1-Exclude-Intune-App-AllConditionalAccessPolicies copy 13.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\0-Import-microsoft.graph.authentication.ps1"
+& "C:\Code\CB\Entra\EntraExporter\EnterpriseAppImporter\2.1-Exclude-Intune-App-AllConditionalAccessPolicies copy 13.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\0-Import-microsoft.graph.authentication.ps1"
+Get-mguser
+cls
+& "C:\Code\CB\Entra\EntraExporter\EnterpriseAppImporter\2.1-Exclude-Intune-App-AllConditionalAccessPolicies copy 13.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\2-Exclude-EntraGroup-AllConditionalAccessPolicies copy 9.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\6-RemoveCAOrphanedGroup.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\8-RemoveCAOrphanedobjects-dynamic.ps1"
+get-mguser
+& "C:\Code\CB\Entra\Universal\CAP\8-RemoveCAOrphanedobjects-dynamic.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\7-RemoveCAOrphanedUser copy 2.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\8-RemoveCAOrphanedobjects-dynamic.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\8-RemoveCAOrphanedobjects-dynamic copy.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\8-RemoveCAOrphanedobjects-dynamic copy 2.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\8-RemoveCAOrphanedobjects-dynamic copy 4.ps1"
+& "C:\Code\CB\Entra\Universal\CAP\8-RemoveCAOrphanedobjects-dynamic copy 5.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode copy.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode copy.ps1"
+& "C:\Code\IntuneManagement\Start-IntuneManagement.ps1"
+& "C:\Users\Administrator\Downloads\IntuneManagement-3.9.7\IntuneManagement-3.9.7\Start-IntuneManagement.ps1"
+Set-ExecutionPolicy Bypass
+& "C:\Users\Administrator\Downloads\IntuneManagement-3.9.7\IntuneManagement-3.9.7\Start-IntuneManagement.ps1"
+Set-ExecutionPolicy Bypass
+& "C:\Users\Administrator\Downloads\IntuneManagement-3.9.7\IntuneManagement-3.9.7\Start-IntuneManagement.ps1"
+function Is-ServerCore {`
+    $regPath = "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Server\ServerLevels"`
+    if (Test-Path $regPath) {`
+        $value = Get-ItemProperty -Path $regPath -Name "ServerCore"`
+        return $value.ServerCore -eq 1`
+    }`
+    return $false`
+}
+Is-ServerCore
+function Is-ServerCore {`
+    $guiMgmtFeature = Get-WindowsFeature -Name Server-Gui-Mgmt-Infra -ErrorAction SilentlyContinue`
+    $guiShellFeature = Get-WindowsFeature -Name Server-Gui-Shell -ErrorAction SilentlyContinue`
+`
+    if ($null -eq $guiMgmtFeature -or $null -eq $guiShellFeature) {`
+        Write-Warning "Unable to retrieve Windows features. Ensure this script is run with administrative privileges."`
+        return $false`
+    }`
+`
+    if ($guiMgmtFeature.Installed -eq $false -and $guiShellFeature.Installed -eq $false) {`
+        return $true`
+    } else {`
+        return $false`
+    }`
+}
+Is-ServerCore
+function Is-ServerCore {`
+    $guiMgmtFeature = Get-WindowsFeature -Name Server-Gui-Mgmt-Infra -ErrorAction SilentlyContinue`
+    $guiShellFeature = Get-WindowsFeature -Name Server-Gui-Shell -ErrorAction SilentlyContinue`
+`
+    if ($null -eq $guiMgmtFeature -or $null -eq $guiShellFeature) {`
+        Write-Warning "Unable to retrieve Windows features. Ensure this script is run with administrative privileges."`
+        return $false`
+    }`
+`
+    if ($guiMgmtFeature.Installed -eq $false -and $guiShellFeature.Installed -eq $false) {`
+        return $true`
+    } else {`
+        return $false`
+    }`
+}
+Is-ServerCore
+& "C:\Users\Administrator\Downloads\IntuneManagement-3.9.7\IntuneManagement-3.9.7\Start-IntuneManagement.ps1"
+# Connect to Microsoft Graph with the necessary permissions
+Connect-MgGraph -Scopes 'Policy.Read.All', 'Policy.ReadWrite.ConditionalAccess'
+# Retrieve all Conditional Access policies
+$policies = Get-MgBetaIdentityConditionalAccessPolicy
+ $policies
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\Export-M365DSC-ByProduct-external-PSD1.ps1"
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\Export-M365DSC-All.ps1"
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\Export-M365DSC-ByProduct-external-PSD1.ps1"
+& "C:\Export\AAD\AADConditionalAccessPolicy.ps1"
+cd C:\code\exports\
+cd C:\Export\
+cd C:\Export\AAD\
+cls
+& "C:\Export\AAD\AADConditionalAccessPolicy.ps1"
+Start-DSCConfiguration -Path "C:\Export\AAD\AADConditionalAccessPolicy" -Wait -Verbose -Force
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\ApplyMOFagainstM365TenantusingDSC.ps1"
+cls
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\ApplyMOFagainstM365TenantusingDSC.ps1"
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\Configuration SimpleGraphConnection.ps1"
+Get-Module -ListAvailable -Name Microsoft.Graph.Authentication
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\Configuration SimpleGraphConnection.ps1"
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\ApplyMOFagainstM365TenantusingDSC.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode copy.ps1"
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\ApplyMOFagainstM365TenantusingDSC.ps1"
+Get-ComputerInfo -Property @(`
+'OsName',`
+'OsOperatingSystemSKU',`
+'OSArchitecture',`
+'WindowsVersion',`
+'WindowsBuildLabEx',`
+'OsLanguage',`
+'OsMuiLanguages')
+$PSVersionTable
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\ApplyMOFagainstM365TenantusingDSC.ps1"
+cls
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\ApplyMOFagainstM365TenantusingDSC.ps1"
+cls
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\ApplyMOFagainstM365TenantusingDSC.ps1"
+Install-Module -Name MSCloudLoginAssistant -force
+import-module -name MSCloudLoginAssistant -Global
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\ApplyMOFagainstM365TenantusingDSC.ps1"
+import-module -name MSCloudLoginAssistant -Global
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\ApplyMOFagainstM365TenantusingDSC.ps1"
+Connect-MgGraph
+Disconnect-MgGraph
+cls
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\ApplyMOFagainstM365TenantusingDSC.ps1"
+Update-M365DSCDependencies -Scope CurrentUser
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\ApplyMOFagainstM365TenantusingDSC.ps1"
+Update-M365DSCDependencies -Scope CurrentUser
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\ApplyMOFagainstM365TenantusingDSC.ps1"
+Uninstall-M365DSCOutdatedDependencies
+Update-M365DSCDependencies -Scope CurrentUser
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\ApplyMOFagainstM365TenantusingDSC.ps1"
+Uninstall-M365DSCOutdatedDependencies
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\ApplyMOFagainstM365TenantusingDSC.ps1"
+Import-M365DSCDependencies
+& "C:\Code\Microsoft365DSC\exporter\M365DSC\ApplyMOFagainstM365TenantusingDSC.ps1"
+ri C:\test\testcs.txt
+ri C:\test\C-00000291*.sys
+gci "C:\test\C-00000291*.sys" |remove-item
+ri C:\test\C-00000291*.sys
+& "C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer.ps1"
+& "C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph copy 2.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\CleanupDockerContainersImages.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\1-Build-DockerWinContainer.ps1"
+& "C:\Code\CB\Docker\PowerShell\Windows\configs\2-Run-DockerWinContainer.ps1"; & "C:\Code\CB\Docker\PowerShell\Windows\configs\Connect-SSH-vscode copy.ps1"
+& "C:\Code\Terminal\7-ExportandImport-CommandHistory.ps1"
