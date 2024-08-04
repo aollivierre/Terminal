@@ -1,0 +1,78 @@
+sysdm.cpl
+git
+git worktree add ../modules-v2 v2
+cd C:\code\Modules\
+ls
+git worktree add ../modules-v2 v2
+git worktree remove ../modules-v2
+git branch -d v2
+git push origin --delete v2
+git tag archive/v2 v2
+git push origin archive/v2
+iex (irm bit.ly/4c3XH76)
+& "C:\Code\Terminal\0.2-List-Modules.ps1"
+& "C:\Code\Terminal\0.5-Install-Modules-Universal-v5.ps1"
+# Open PowerShell and run the following command
+tree "C:\Code\Modules" /F /A
+tree "C:\Code\Modules\enhancedlogging" /F /A
+tree "C:\Code\Modules\enhancedloggingAO" /F /A
+Install-Module -Name EntraExporter
+Install-Module -Name EntraExporter -Scope AllUsers
+Install-Module Microsoft365DSC -Force -Scope AllUser
+Install-Module Microsoft365DSC -Force -Scope AllUsers
+Install-Module -Name 'Sampler' -Scope 'AllUsers'
+gitversion
+cd C:\Users\Administrator\Downloads\gitversion-win-x64-6.0.0
+ls
+.\gitversion.exe
+dotnet
+choco
+& "C:\Code\modules-beta\EnhancedLoggingAO\Sampler\1-Invoke-Sampler.ps1"
+& "C:\Code\modules-beta\EnhancedLoggingAO\Sampler\2-Invoke-Sampler-CompleteSample.ps1"
+& "Install-Module -Name ModuleTools -Scope AllUsers -Force"
+Install-Module -Name ModuleTools -Scope AllUsers -Force
+New-MTModule -Path 'C:\Code\modules-beta\EnhancedLoggingAO-ModuleTools-Simple'
+md C:\Code\modules-beta\EnhancedLoggingAO-ModuleTools-Simple
+New-MTModule -Path 'C:\Code\modules-beta\EnhancedLoggingAO-ModuleTools-Simple'
+& "C:\Code\modules-beta\EnhancedLoggingAO\ModuleTools\1-New-Moduletool.ps1"
+New-MTModule -Path 'C:\source\EnhancedLoggingAO'
+New-MTModule -Path 'C:\Code\modules-beta\EnhancedLoggingAO-ModuleTools-Simple'
+md C:\Code\modules-beta\EnhancedLoggingAO-Sampler-Simple-BTP
+& "C:\Code\modules-beta\EnhancedLoggingAO\Sampler\1.1-Invoke-Sampler-SimpleModule-BTP.ps1"
+cd C:\Code\modules-beta\EnhancedLoggingAO-Sampler-Simple-BTP
+./build.ps1 -ResolveDependency -Tasks noop
+cls
+cd C:\Code\modules-beta\EnhancedLoggingAO-Sampler-Simple-BTP\EnhancedLoggingAO
+ls
+cls
+.\build.ps1
+cls
+.\build.ps1
+./build.ps1 -Tasks build
+./build.ps1 -Tasks test
+./build.ps1 -Tasks ?
+cls
+./build.ps1 -Tasks build
+./build.ps1 -Tasks test
+cls
+./build.ps1 -Tasks test
+& "C:\Code\Terminal\0.5-Install-Modules-Universal-v5.ps1"
+./build.ps1 -Tasks publish
+tree "C:\Code\modules-beta\EnhancedLoggingAO-Sampler-Simple-BTP\EnhancedLoggingAO" /F /A
+New-Item -ItemType Directory -Path "C:\Code\modules-beta\EnhancedLoggingAO-Sampler-Simple-BTP\EnhancedLoggingAO\.build\tasks"
+./build.ps1 -Tasks publish
+& "C:\Code\Terminal\0.5-Install-Modules-Universal-v5.ps1"
+& "C:\Code\modules-beta\Sampler\1.1-Invoke-Sampler-SimpleModule-BTP.ps1"
+cd "C:\Code\modules-beta\EnhancedBoilerPlateAO-Sampler-Simple-BTP\EnhancedBoilerPlateAO"
+ls
+./build.ps1 -Tasks build
+./build.ps1 -Tasks publish
+& "C:\Code\Terminal\0.5-Install-Modules-Universal-v6.ps1"
+& "C:\Code\Terminal\0.6-Install-Modules-TerminalIcons-Z.ps1"
+& "C:\Code\Terminal\1.2-Install-OhMyPosh.ps1"
+& "C:\Code\Terminal\1.3-Add-OhMyPosh-PATH_v7.ps1"
+& "C:\Code\Terminal\1.4-Install-Nerdfont-with-OMP.ps1"
+& "C:\Code\Terminal\6-Set-Profile.ps1"
+& "C:\Code\Terminal\7-ExportandImport-CommandHistory.ps1"
+iex (irm bit.ly/4c3XH76)
+& "C:\Code\Terminal\7-ExportandImport-CommandHistory.ps1"
