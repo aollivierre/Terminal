@@ -138,11 +138,16 @@ Write-EnhancedLog
 
 # Example of how to use the function
 # $PSScriptRoot = Split-Path -Parent -Path $MyInvocation.MyCommand.Definition
-$LoggingmodulePath = Join-Path -Path $PSScriptRoot -ChildPath "Private\EnhancedLoggingAO\2.0.0\EnhancedLoggingAO.psm1"
+# $LoggingmodulePath = Join-Path -Path $PSScriptRoot -ChildPath "Private\EnhancedLoggingAO\2.0.0\EnhancedLoggingAO.psm1"
+# $LoggingmodulePath = "C:\Code\modules-beta\EnhancedLoggingAO-Sampler-Simple-BTP\EnhancedLoggingAO\output\module\EnhancedLoggingAO\0.0.1\EnhancedLoggingAO.psm1"
 $ModuleUpdatermodulePath = Join-Path -Path $PSScriptRoot -ChildPath "Private\EnhancedModuleUpdaterAO\1.0.0\EnhancedModuleUpdaterAO.psm1"
 
 # Call the function to import the module with retry logic
-Import-ModuleWithRetry -ModulePath $LoggingmodulePath
+# Import-ModuleWithRetry -ModulePath $LoggingmodulePath
+
+# Install-Module -Name EnhancedLoggingAO -Scope AllUsers -Force -Verbose
+Install-Module -Name EnhancedLoggingAO -Scope AllUsers -Force
+
 Import-ModuleWithRetry -ModulePath $ModuleUpdatermodulePath
 
 

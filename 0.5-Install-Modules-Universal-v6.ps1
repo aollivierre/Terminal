@@ -37,8 +37,6 @@ function Remove-OldVersions {
         }
     }
 }
-
-
 function Update-ModuleIfOldOrMissing {
     [CmdletBinding()]
     param (
@@ -58,6 +56,11 @@ function Update-ModuleIfOldOrMissing {
                     Write-Host "Updating $ModuleName from version $($status.InstalledVersion) to $($status.LatestVersion)." -ForegroundColor Yellow
 
                     # Assuming administrative access for module management
+                    $modulePath = (Get-Module -ListAvailable -Name $ModuleName | Sort-Object Version -Descending | Select-Object -First 1).ModuleBase
+                    & takeown.exe /F $modulePath /A /R
+                    & icacls.exe $modulePath /reset
+                    & icacls.exe $modulePath /grant "*S-1-5-32-544:F" /inheritance:d /T
+                    Remove-Item -Path $modulePath -Recurse -Force -Confirm:$false
                     # $modulePath = (Get-Module -ListAvailable -Name $ModuleName | Sort-Object Version -Descending | Select-Object -First 1).ModuleBase
                     # & takeown.exe /F $modulePath /A /R
                     # & icacls.exe $modulePath /reset
@@ -75,7 +78,7 @@ function Update-ModuleIfOldOrMissing {
                      }
 
                     # Install the latest version of the module
-                    Install-Module -Name $ModuleName -Force -SkipPublisherCheck -Scope AllUsers -AllowClobber
+                    Install-Module -Name $ModuleName -Force -SkipPublisherCheck -Scope AllUsers
                     Write-Host "$ModuleName has been updated to the latest version." -ForegroundColor Green
                 }
                 "Up-to-date" {
@@ -84,7 +87,7 @@ function Update-ModuleIfOldOrMissing {
                 }
                 "Not Installed" {
                     Write-Host "$ModuleName is not installed. Installing the latest version..." -ForegroundColor Yellow
-                    Install-Module -Name $ModuleName -Force -SkipPublisherCheck -AllowClobber
+                    Install-Module -Name $ModuleName -Force -SkipPublisherCheck
                     Write-Host "$ModuleName has been installed." -ForegroundColor Green
                 }
                 "Not Found in Gallery" {
@@ -99,7 +102,6 @@ function Update-ModuleIfOldOrMissing {
     }
 }
 
-
 # Example invocation to update or install Pester:
-Update-ModuleIfOldOrMissing -ModuleName 'Terminal-Icons'
-Update-ModuleIfOldOrMissing -ModuleName 'z'
+Update-ModuleIfOldOrMissing -ModuleName 'Pester'
+Update-ModuleIfOldOrMissing -ModuleName 'PSReadLine'
