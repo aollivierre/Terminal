@@ -1,5 +1,6 @@
 Install-Module -Name EnhancedBoilerPlateAO -Scope AllUsers -Force
 Install-Module -Name EnhancedLoggingAO -Scope AllUsers -Force
+Install-Module -Name EnhancedSchedTaskAO  -Scope AllUsers -Force
 
 Write-EnhancedLog "Logging works" -Level "INFO"
 
