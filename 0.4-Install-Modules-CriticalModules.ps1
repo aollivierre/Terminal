@@ -1,9 +1,9 @@
 #for the followint take a snaptshot of a test VM first and try it because it might break these critical modules and if it does break them then you need to bring these two modules from other external sources like GitHub
 
 
-Install-Module -Name EnhancedBoilerPlateAO -Scope AllUsers -Force
-Install-Module -Name EnhancedLoggingAO -Scope AllUsers -Force
-Install-Module -Name EnhancedSchedTaskAO  -Scope AllUsers -Force
+Install-Module -Name EnhancedBoilerPlateAO -Scope AllUsers -Force -SkipPublisherCheck -AllowClobber -Verbose
+Install-Module -Name EnhancedLoggingAO -Scope AllUsers -Force -SkipPublisherCheck -AllowClobber -Verbose
+Install-Module -Name EnhancedSchedTaskAO  -Scope AllUsers -Force -SkipPublisherCheck -AllowClobber -Verbose
 
 Write-EnhancedLog "Logging works" -Level "INFO"
 
