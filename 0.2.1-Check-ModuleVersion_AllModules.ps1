@@ -32,12 +32,12 @@
 # To run the function, you can simply call it like this:
 # Initialize-ExportEnvironment
 
-Install-Module -Name EnhancedBoilerPlateAO -Scope AllUsers -Force
-Install-Module -Name EnhancedLoggingAO -Scope AllUsers -Force
+# Install-Module -Name EnhancedBoilerPlateAO -Scope AllUsers -Force
+# Install-Module -Name EnhancedLoggingAO -Scope AllUsers -Force
 
-Write-EnhancedLog "Logging works" -Level "INFO"
+# Write-EnhancedLog "Logging works" -Level "INFO"
 
-CheckAndElevate
+# CheckAndElevate
 
 function Install-MissingModules {
     <#
