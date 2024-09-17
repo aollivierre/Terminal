@@ -1,0 +1,150 @@
+New-ModuleManifest
+. 'C:\Code\modules-beta\InProgress\Export-ScriptsToModule.ps1'
+cls
+. 'C:\Code\modules-beta\InProgress\Export-ScriptsToModule.ps1'
+. 'C:\Code\modules-beta\EnhancedLoggingAO\Export-ScriptsToModule.ps1'
+. 'C:\Code\modules-beta\EnhancedLoggingAO\Export-ScriptsToModule.psm1'
+. 'C:\Code\modules-beta\EnhancedLoggingAO\Export-ScriptsToModule.ps1'
+Publish-PSResource
+. 'C:\Code\modules-beta\EnhancedLoggingAO\Generate-PSD1.ps1'
+cd C:\Code\modules-beta\EnhancedLoggingAO-Sampler-Simple-BTP\EnhancedLoggingAO
+. 'C:\Code\modules-beta\PSGallery\Publish.ps1'
+. 'C:\Code\modules-beta\Sampler\1.1-Invoke-Sampler-SimpleModule-BTP.ps1'
+. 'C:\Code\modules-beta\Sampler\1.1-Invoke-Sampler-SimpleModule-BTP-Dynamic.ps1'
+cls
+. 'C:\Code\modules-beta\Sampler\1.1-Invoke-Sampler-SimpleModule-BTP-Dynamic.ps1'
+$PSVersionTable\
+$PSVersionTable
+Import-Module "C:\Code\Modules\EnhancedFileManagerAO\2.0.0\EnhancedFileManagerAO.psm1" -verbose
+. 'C:\Code\CB\ModuleBuilder\Sampler\1.1-Invoke-Sampler-SimpleModule-BTP-Dynamic.ps1'
+. 'C:\Code\modules-beta\EnhancedAO.Graph.SignInLogs-Sampler-Simple-BTP\EnhancedAO.Graph.SignInLogs\.build\tasks\publish_module_to_gallery.ps1'
+cls
+. 'C:\Code\modules-beta\EnhancedAO.Graph.SignInLogs-Sampler-Simple-BTP\EnhancedAO.Graph.SignInLogs\.build\tasks\publish_module_to_gallery.ps1'
+cls
+. 'C:\Code\modules-beta\EnhancedAO.Graph.SignInLogs-Sampler-Simple-BTP\EnhancedAO.Graph.SignInLogs\.build\tasks\publish_module_to_gallery.ps1'
+cls
+. 'C:\Code\modules-beta\EnhancedAO.Graph.SignInLogs-Sampler-Simple-BTP\EnhancedAO.Graph.SignInLogs\.build\tasks\publish_module_to_gallery.ps1'
+cls
+. 'C:\Code\modules-beta\EnhancedAO.Graph.SignInLogs-Sampler-Simple-BTP\EnhancedAO.Graph.SignInLogs\.build\tasks\publish_module_to_gallery.ps1'
+cls
+. 'C:\Code\modules-beta\EnhancedAO.Graph.SignInLogs-Sampler-Simple-BTP\EnhancedAO.Graph.SignInLogs\.build\tasks\publish_module_to_gallery.ps1'
+. 'C:\Code\CB\ModuleBuilder\GitHub\1-Move-Modules-to-Repos.ps1'
+. 'C:\Code\CB\ModuleBuilder\GitHub\Delete-Folder.ps1'
+. 'C:\Code\CB\ModuleBuilder\GitHub\1-Move-Modules-to-Repos.ps1'
+. 'C:\Code\CB\ModuleBuilder\GitHub\copy-test.ps1'
+cls
+. 'C:\Code\CB\ModuleBuilder\GitHub\copy-test.ps1'
+. 'C:\Code\CB\ModuleBuilder\GitHub\1-Move-Modules-to-Repos.ps1'
+. 'C:\Code\CB\ModuleBuilder\GitHub\copy-test.ps1'
+. 'C:\Code\CB\ModuleBuilder\GitHub\1-Move-Modules-to-Repos.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\1.1-Invoke-Sampler-SimpleModule-BTP-Dynamic.ps1'
+. 'C:\Code\modules-beta\EnhancedFileManagerAO-Sampler-Simple-BTP\EnhancedFileManager\.build\tasks\publish_module_to_gallery.ps1'
+. 'C:\Code\modules-beta\EnhancedFileManagerAO-Sampler-Simple-BTP\EnhancedFileManagerAO\.build\tasks\publish_module_to_gallery.ps1'
+. 'C:\Code\modules-beta\EnhancedBoilerPlateAO-Sampler-Simple-BTP\EnhancedBoilerPlateAO\.build\tasks\publish_module_to_gallery.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\1.1-Invoke-Sampler-SimpleModule-BTP-Dynamic.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\CleanAndUpdateModules.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\CleanAndUpdateModules-CSV-Grid-Map.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\1.1-Invoke-Sampler-SimpleModule-BTP-Dynamic.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\New-SampleModules-CSV-GridMap.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\CleanAndUpdateModules-CSV-Grid-Map.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\New-SampleModules-CSV-GridMap.ps1'
+cls
+. 'C:\Code\CB\ModuleBuilder\Sampler\New-SampleModules-CSV-GridMap.ps1'
+cls
+. 'C:\Code\CB\ModuleBuilder\Sampler\New-SampleModules-CSV-GridMap.ps1'
+cls
+. 'C:\Code\CB\ModuleBuilder\Sampler\New-SampleModules-CSV-GridMap.ps1'
+cls
+. 'C:\Code\CB\ModuleBuilder\Sampler\New-SampleModules-CSV-GridMap.ps1'
+cls
+. 'C:\Code\CB\ModuleBuilder\Sampler\New-SampleModules-CSV-GridMap.ps1'
+cls
+. 'C:\Code\CB\ModuleBuilder\Sampler\New-SampleModules-CSV-GridMap.ps1'
+cls
+. 'C:\Code\CB\ModuleBuilder\Sampler\New-SampleModules-CSV-GridMap.ps1'
+cls
+. 'C:\Code\CB\ModuleBuilder\Sampler\New-SampleModules-CSV-GridMap.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\Increment-ModuleVersion.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\New-SampleModules-CSV-GridMap.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\Publishing-CSV-Grid-Map.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\find-module-version.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\Publishing-CSV-Grid-Map.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\New-SampleModules-CSV-GridMap.ps1'
+. 'C:\Code\module-starter\Validate-GitHubCLIInstallation.ps1'
+. 'C:\Code\module-starter\Download-and-Execute.ps1'
+. 'C:\Code\module-starter\Module-Starter.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\New-SampleModules-CSV-GridMap.ps1'
+get-mgsite
+Get-MgSite -Filter "siteCollection/root ne null"
+Connect-MgGraph -Scopes "Sites.Read.All"
+Get-MgSite -Filter "siteCollection/root ne null"
+$sites
+Get-MgSite
+. 'C:\Code\module-starter\Module-Starter.ps1'
+$PSVersionTable
+. 'C:\Code\module-starter\Module-Starter.ps1'
+[System.AppDomain]::CurrentDomain.GetAssemblies()
+. 'C:\Code\module-starter\Module-Starter.ps1'
+. 'C:\Code\module-starter\Save-And-UpdatePowerShellGet.ps1'
+. 'C:\Code\module-starter\Save-And-UpdatePowerShellGet copy.ps1'
+. 'C:\Code\module-starter\Module-Starter.ps1'
+. 'C:\Code\module-starter\Save-And-UpdatePowerShellGet copy 2.ps1'
+. 'C:\Code\module-starter\Module-Starter.ps1'
+$PSVersionTable
+. 'C:\Code\module-starter\Module-Starter.ps1'
+. 'C:\Code\module-starter\Call-ModuleStarter.ps1'
+. 'C:\Code\module-starter\Clone-EnhancedRepos.ps1'
+. 'C:\Code\module-starter\Module-Starter.ps1'
+$PSVersionTable
+. 'C:\Code\MSIdentityTools/build/Launch-PSModule.ps1' -ModuleManifestPath './src/*.psd1' -NoNewWindow
+. 'C:\Code\MSIdentityTools\Implementation.AO\1-Find-InactiveUsers.ps1'
+get-mgcontext
+Disconnect-Graph
+cls
+. 'C:\Code\MSIdentityTools\Implementation.AO\1-Find-InactiveUsers.ps1'
+Disconnect-Graph
+. 'C:\Code\MSIdentityTools\Implementation.AO\1-Find-InactiveUsers.ps1'
+Disconnect-Graph
+. 'C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph-BETA.ps1'
+. 'C:\Code\CB\Entra\Compliance\Get-ComplianceReportBasedonSignInLogs-ALPHA-v1.ps1'
+. 'C:\Code\MSIdentityTools\Implementation.AO\1-Find-InactiveUsers.ps1'
+. 'C:\Code\module-starter\Module-Starter-ALPHAv1.ps1'
+. 'C:\Code\module-starter\Clone-EnhancedRepos-ALPHAv1.ps1'
+. 'C:\Code\CB\ModuleBuilder\Sampler\New-SampleModules-CSV-GridMap.ps1'
+. 'C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph-BETA.ps1'
+. 'C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer-ALPHAv1.ps1'
+. 'C:\Code\CB\WinUpdates\1-CheckforKB-v2.ps1'
+Get-WUList
+. 'C:\Code\CB\WinUpdates\1-CheckforKB-v2.ps1'
+Get-WUList
+. 'C:\Code\CB\WinUpdates\1-CheckforKB-v2.ps1'
+Get-WURebootStatus
+. 'C:\Code\CB\WinUpdates\1-CheckforKB-v2.ps1'
+. 'C:\Code\Intune-Win32-Deployer\Win32Apps-Dropbox\PR4B_TriggerWindowsUpdates-v1\CheckforKB.Remediation.ps1'
+. 'C:\Code\module-starter\Install-EnhancedModuleStarterAO.ps1'
+. 'C:\Code\module-starter\Archive\tests\Invoke-InPowerShell5.test.ps1'
+. 'C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer-ALPHAv1.ps1'
+. 'C:\Code\Intune-Win32-Deployer\Win32Apps-Dropbox\PR4B_TriggerWindowsUpdates-v2\Remediation.ps1'
+. 'C:\Code\PSFramework.Logging\PSFramework.Logging\PSFramework-REVIEW-Grid-CSVFiles-NoTimeStampSorting.ps1'
+. 'C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer-ALPHAv1.ps1'
+. 'C:\Code\GraphAppwithCert\Graph\0-BuildEntraAppRegCertBasedwithGraph-BETA.ps1'
+. 'C:\Code\CB\Entra\Compliance\Get-ComplianceReportBasedonSignInLogs-ALPHA-v1.ps1'
+get-mgcontext
+. 'C:\Code\CB\Entra\Universal\CAP\1-Compare-ConditionalAccess-v1-and-Beta.ps1'
+md C:\Code\CB\Entra\LHC\Graph\export
+. 'C:\Code\CB\Entra\Universal\CAP\1-Compare-ConditionalAccess-v1-and-Beta.ps1'
+. 'C:\Code\CB\Entra\Universal\CAP\2-Exclude-EntraGroup-AllConditionalAccessPolicies copy 9.ps1'
+. 'C:\Code\CB\Entra\Universal\CAP\0.2-Import-microsoft.graph.authentication.ps1'
+. 'C:\Code\CB\Entra\Universal\CAP\2-Exclude-EntraGroup-AllConditionalAccessPolicies copy 9.ps1'
+. 'C:\Code\CB\Entra\Universal\CAP\2.1-Exclude-Intune-App-AllConditionalAccessPolicies copy 14.ps1'
+. 'C:\Code\CB\Entra\Universal\CAP\8-RemoveCAOrphanedobjects-dynamic copy.ps1'
+. 'C:\Code\CB\Entra\Universal\CAP\7-RemoveCAOrphanedUser copy 2.ps1'
+. 'C:\Code\module-starter\Install-EnhancedModuleStarterAO.ps1'
+. 'C:\Code\module-starter\Shorten.ps1'
+. 'C:\Code\WinUpdates\Shorten.ps1'
+. 'C:\Code\WinUpdates\PR4B_TriggerWindowsUpdates-v4\install.ps1'
+. 'C:\Code\module-starter\Install-EnhancedModuleStarterAO.ps1'
+. 'C:\Code\Intune-Win32-Deployer\callps5fromps7.test.ps1'
+. 'C:\Code\setuplab\Install-DockerDesktop.ps1'
+. 'C:\Code\Intune-Win32-Deployer\Intune-Win32-Deployer-ALPHAv1.ps1'
+. 'C:\Code\Terminal\7-ExportandImport-CommandHistory.ps1'
